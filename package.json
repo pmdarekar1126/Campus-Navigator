@@ -3,6 +3,15 @@
   "version": "1.0.0",
   "private": true,
   "description": "Campus navigator for new students at Ramrao Adik Institute of Technology",
+  "author": "Pranav Darekar",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pmdarekar1126/Campus-Navigator.git"
+  },
+  "homepage": "https://github.com/pmdarekar1126/Campus-Navigator#readme",
+  "bugs": {
+    "url": "https://github.com/pmdarekar1126/Campus-Navigator/issues"
+  },
   "main": "server.js",
   "scripts": {
     "build": "node data/build-knowledge-base.js",
