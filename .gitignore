@@ -1,0 +1,8 @@
+node_modules/
+.env
+
+# OS and editor clutter
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log

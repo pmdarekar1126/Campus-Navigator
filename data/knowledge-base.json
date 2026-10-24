@@ -1,0 +1,5027 @@
+[
+  {
+    "id": 1,
+    "question": "Where is the main entrance to the campus?",
+    "answer": "The main entrance is the main gate on Sector 7 Road, D. Y. Patil Vidyanagar, Nerul. Security sits at the gate; walk straight in to the main building, where the lifts and the ground-floor directory board are in the lobby.",
+    "category": "location",
+    "keywords": [
+      "main",
+      "entrance",
+      "campu"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 2,
+    "question": "Where is the administration building?",
+    "answer": "Room 101 is the Administrative Office on Level 1, the administration floor. Level 1 is close, so the main stairs are quickest; the lift works too. The directory board faces the lifts on the landing. 101 sits first on the board, just before 103 (Principal's Office).",
+    "category": "location",
+    "keywords": [
+      "administration",
+      "building"
+    ],
+    "specificity": "concrete",
+    "from": "building"
+  },
+  {
+    "id": 3,
+    "question": "How do I get to the computer science department?",
+    "answer": "The Computer Science & Engineering department is on Level 4. The Head of Department's office is Room 403, and the faculty room is 402. Take the lift up to Level 4; the stairs work if the lift is busy. The directory board faces you as you step out.",
+    "category": "location",
+    "keywords": [
+      "computer",
+      "department"
+    ],
+    "specificity": "concrete",
+    "from": "building"
+  },
+  {
+    "id": 4,
+    "question": "Where is the engineering block?",
+    "answer": "RAIT's engineering facilities are located within the D. Y. Patil Vidyanagar campus in Sector 7, Nerul.",
+    "category": "location",
+    "keywords": [
+      "engineering",
+      "block"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 5,
+    "question": "Which building houses the mathematics department?",
+    "answer": "Mathematics for first-year students is taught by the Engineering Sciences department on the ground floor (Level 0). Its Head sits in Room 001, the first room on the ground-floor board.",
+    "category": "location",
+    "keywords": [
+      "building",
+      "house",
+      "mathematic",
+      "department"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 6,
+    "question": "Where is Room 402?",
+    "answer": "Room 402 is the Faculty Room on Level 4, the Computer Science & Engineering floor. Take the lift up to Level 4; the stairs work if the lift is busy. The directory board faces you as you step out. 402 sits between 401 (Apple in Education Lab) and 403 (Head of Computer Science & Engineering).",
+    "category": "location",
+    "keywords": [
+      "room",
+      "402"
+    ],
+    "specificity": "concrete",
+    "from": "building"
+  },
+  {
+    "id": 7,
+    "question": "How do I get to Room 205 from the main gate?",
+    "answer": "Room 205 is the VLSI & Embedded Systems Lab on Level 2, the Electrical & Instrumentation Engineering floor. Level 2 is close, so the main stairs are quickest; the lift works too. The directory board faces the lifts on the landing. 205 sits between 204 (Microprocessor & Signal Processing Lab) and 206 (Seminar Hall).",
+    "category": "location",
+    "keywords": [
+      "room",
+      "205",
+      "main",
+      "gate"
+    ],
+    "specificity": "concrete",
+    "from": "building"
+  },
+  {
+    "id": 8,
+    "question": "Which floor is Room 301 on?",
+    "answer": "Room 301 is the Seminar Hall on Level 3, the Electronics & Telecommunication Engineering floor. Take the lift up to Level 3; the stairs work if the lift is busy. The directory board faces you as you step out. 301 sits first on the board, just before 302 (Seminar Hall).",
+    "category": "location",
+    "keywords": [
+      "floor",
+      "room",
+      "301"
+    ],
+    "specificity": "concrete",
+    "from": "building"
+  },
+  {
+    "id": 9,
+    "question": "Where is the lecture hall?",
+    "answer": "The large teaching halls are the Seminar Halls, Room 206 on Level 2 and Rooms 301 and 302 on Level 3, plus the two auditoriums, Rooms 611 and 615 on Level 6. Your timetable says which one your lecture is in.",
+    "category": "location",
+    "keywords": [
+      "lecture",
+      "hall"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 10,
+    "question": "Where are the seminar rooms?",
+    "answer": "There are three seminar halls in the building: 206 on Level 2, 301 on Level 3 and 302 on Level 3. Each level's directory board, facing the lifts, points you to the right door.",
+    "category": "location",
+    "keywords": [
+      "seminar",
+      "room"
+    ],
+    "specificity": "concrete",
+    "from": "building"
+  },
+  {
+    "id": 11,
+    "question": "Which building has the largest auditorium?",
+    "answer": "Both auditoriums are on Level 6, Rooms 611 and 615. Take the lift to Level 6; the directory board faces you as you step out.",
+    "category": "location",
+    "keywords": [
+      "building",
+      "largest",
+      "auditorium"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 12,
+    "question": "Where is the central library?",
+    "answer": "Room 312 is the Library & Information Centre on Level 3, the Electronics & Telecommunication Engineering floor. Take the lift up to Level 3; the stairs work if the lift is busy. The directory board faces you as you step out. 312 sits between ET 311B (Communication Lab) and 313 (Stack Room).",
+    "category": "location",
+    "keywords": [
+      "central",
+      "library"
+    ],
+    "specificity": "concrete",
+    "from": "building"
+  },
+  {
+    "id": 13,
+    "question": "How do I get to the student center?",
+    "answer": "The floor boards do not list a separate student centre. For student services, go to the Administrative Office in Room 101 on Level 1; for somewhere to sit and eat, the canteen is in the basement.",
+    "category": "location",
+    "keywords": [
+      "student",
+      "center"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 14,
+    "question": "Where is the cafeteria?",
+    "answer": "The canteen is in the basement. Take the stairs down one level from the ground-floor lobby; the workshop and the store are down there too.",
+    "category": "timing",
+    "keywords": [
+      "cafeteria"
+    ],
+    "specificity": "concrete",
+    "from": "building"
+  },
+  {
+    "id": 15,
+    "question": "Where is the campus café?",
+    "answer": "The canteen is in the basement. Take the stairs down one level from the ground-floor lobby; the workshop and the store are down there too.",
+    "category": "location",
+    "keywords": [
+      "campu",
+      "cafeteria"
+    ],
+    "specificity": "concrete",
+    "from": "building"
+  },
+  {
+    "id": 16,
+    "question": "Which building contains the laboratories?",
+    "answer": "RAIT has multiple laboratories across its engineering departments. The institute's published information lists numerous laboratories; ask the relevant department for the exact lab.",
+    "category": "location",
+    "keywords": [
+      "building",
+      "contain",
+      "lab"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 17,
+    "question": "Where is the physics laboratory?",
+    "answer": "Room 113 is the Physics Lab on Level 1, the administration floor. Level 1 is close, so the main stairs are quickest; the lift works too. The directory board faces the lifts on the landing. 113 sits between 112 (Computational & Embedded Systems Lab) and 114 (Classroom).",
+    "category": "location",
+    "keywords": [
+      "physic",
+      "lab"
+    ],
+    "specificity": "concrete",
+    "from": "building"
+  },
+  {
+    "id": 18,
+    "question": "Where is the chemistry laboratory?",
+    "answer": "Room 002 is the Chemistry Lab on the ground floor (Level 0), the Engineering Sciences floor. No stairs needed: it is on the ground floor, so follow the room numbers from the directory board by the lift lobby. 002 sits between 001 (Head of Engineering Sciences) and 003 (Conference Room).",
+    "category": "location",
+    "keywords": [
+      "chemistry",
+      "lab"
+    ],
+    "specificity": "concrete",
+    "from": "building"
+  },
+  {
+    "id": 19,
+    "question": "Where is the computer laboratory?",
+    "answer": "RAIT has multiple computer laboratories. Ask the Computer Engineering Department or check your timetable for the assigned lab.",
+    "category": "location",
+    "keywords": [
+      "computer",
+      "lab"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 20,
+    "question": "Where is the language laboratory?",
+    "answer": "The floor boards do not list a language laboratory. First-year communication-skills sessions run with the Engineering Sciences department on the ground floor, whose Head sits in Room 001.",
+    "category": "location",
+    "keywords": [
+      "language",
+      "lab"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 21,
+    "question": "Where can I find the examination hall?",
+    "answer": "Exams are held in the classrooms of the main building, and your seat and room are printed on your hall ticket. Hall tickets and seating come from the Examination Section, Rooms 104 and 105 on Level 1.",
+    "category": "location",
+    "keywords": [
+      "examination",
+      "hall"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 22,
+    "question": "Where is the admissions office?",
+    "answer": "There is no separate admissions office on the floor boards; that goes through the Administrative Office, Room 101 on Level 1. Level 1 is close, so the main stairs are quickest; the lift works too. The directory board faces the lifts on the landing. 101 is the first room on the board, just before 103 (Principal's Office).",
+    "category": "location",
+    "keywords": [
+      "admission",
+      "office"
+    ],
+    "specificity": "concrete",
+    "from": "building"
+  },
+  {
+    "id": 23,
+    "question": "Where is the registrar's office?",
+    "answer": "There is no separate registrar's office on the floor boards; that work is handled by the Administrative Office, Room 101 on Level 1.",
+    "category": "location",
+    "keywords": [
+      "registrar",
+      "s",
+      "office"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 24,
+    "question": "Where is the academic office?",
+    "answer": "There is no separate academic office on the floor boards; that goes through the Administrative Office, Room 101 on Level 1. Level 1 is close, so the main stairs are quickest; the lift works too. The directory board faces the lifts on the landing. 101 is the first room on the board, just before 103 (Principal's Office).",
+    "category": "timing",
+    "keywords": [
+      "academic",
+      "office"
+    ],
+    "specificity": "concrete",
+    "from": "building"
+  },
+  {
+    "id": 25,
+    "question": "Where is the student affairs office?",
+    "answer": "There is no separate student affairs office on the floor boards; that goes through the Administrative Office, Room 101 on Level 1. Level 1 is close, so the main stairs are quickest; the lift works too. The directory board faces the lifts on the landing. 101 is the first room on the board, just before 103 (Principal's Office).",
+    "category": "location",
+    "keywords": [
+      "student",
+      "affair",
+      "office"
+    ],
+    "specificity": "concrete",
+    "from": "building"
+  },
+  {
+    "id": 26,
+    "question": "What room is CS101 taught in?",
+    "answer": "Introductory programming (CS101) is a first-year subject, so its lectures run in the ground-floor classrooms of the Engineering Sciences department; your division's timetable gives the exact room. Programming practicals use the Computer Programming Lab, Room 523 on Level 5.",
+    "category": "location",
+    "keywords": [
+      "room",
+      "cs101",
+      "taught"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 27,
+    "question": "Where is the classroom for today's mathematics lecture?",
+    "answer": "First-year mathematics runs in the ground-floor classrooms of the Engineering Sciences department: 004 to 006, 014 and 015. Your division's timetable gives the exact room for today.",
+    "category": "location",
+    "keywords": [
+      "classroom",
+      "today",
+      "s",
+      "mathematic",
+      "lecture"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 28,
+    "question": "Which room is assigned to my seminar?",
+    "answer": "Check the seminar announcement or timetable for the assigned room.",
+    "category": "location",
+    "keywords": [
+      "room",
+      "assigned",
+      "seminar"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 29,
+    "question": "Has the classroom for CS102 changed?",
+    "answer": "Check the latest RAIT timetable, department notice board, LMS announcement, or class WhatsApp/official communication before attending.",
+    "category": "general",
+    "keywords": [
+      "classroom",
+      "cs102",
+      "changed"
+    ],
+    "specificity": "deferral"
+  },
+  {
+    "id": 30,
+    "question": "Where is Room B-204?",
+    "answer": "The floor boards do not use a B prefix. If you mean Room 204, that is the Microprocessor & Signal Processing Lab on Level 2, between 203 (Head of Electrical & Instrumentation Engineering) and 205 (VLSI & Embedded Systems Lab).",
+    "category": "location",
+    "keywords": [
+      "room",
+      "b",
+      "204"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 31,
+    "question": "Is Room 401 on the third or fourth floor?",
+    "answer": "Room 401 is the Apple in Education Lab on Level 4, the Computer Science & Engineering floor. Take the lift up to Level 4; the stairs work if the lift is busy. The directory board faces you as you step out. 401 sits first on the board, just before 402 (Faculty Room).",
+    "category": "location",
+    "keywords": [
+      "room",
+      "401",
+      "third",
+      "fourth",
+      "floor"
+    ],
+    "specificity": "concrete",
+    "from": "building"
+  },
+  {
+    "id": 32,
+    "question": "Which staircase should I use to reach Room 305?",
+    "answer": "Room ET 305 is a classroom on Level 3, the Electronics & Telecommunication Engineering floor. Take the lift up to Level 3; the stairs work if the lift is busy. The directory board faces you as you step out. ET 305 sits between ET 304 (Classroom) and ET 306 (Classroom).",
+    "category": "location",
+    "keywords": [
+      "staircase",
+      "use",
+      "reach",
+      "room",
+      "305"
+    ],
+    "specificity": "concrete",
+    "from": "building"
+  },
+  {
+    "id": 33,
+    "question": "Is there an elevator near Room 502?",
+    "answer": "Yes. The lifts open onto the Level 5 lobby, facing the directory board, and Room 502, the Faculty Room, sits between 501 (Quantum Studio) and 503 (Head of Computer Engineering).",
+    "category": "timing",
+    "keywords": [
+      "elevator",
+      "near",
+      "room",
+      "502"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 34,
+    "question": "Where are the classrooms in the science block?",
+    "answer": "There is no separate science block; everything is in the main building. First-year science teaching is on the ground floor with Engineering Sciences, in classrooms 004 to 006, 014 and 015, and the Physics Lab is Room 113 on Level 1.",
+    "category": "location",
+    "keywords": [
+      "classroom",
+      "science",
+      "block"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 35,
+    "question": "Which rooms are available for group study?",
+    "answer": "Use designated library or study areas where available. Check with the library for current group-study room availability.",
+    "category": "location",
+    "keywords": [
+      "room",
+      "available",
+      "group",
+      "study"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 36,
+    "question": "Can students use empty classrooms?",
+    "answer": "Yes, you may use an empty classroom for self-study as long as it is not booked. The day sheet on each classroom door shows when it is free.",
+    "category": "timing",
+    "keywords": [
+      "student",
+      "use",
+      "empty",
+      "classroom"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 37,
+    "question": "Which classroom has computers?",
+    "answer": "Computer-equipped rooms are generally designated as computer laboratories. Check the timetable or ask the Computer Engineering Department.",
+    "category": "general",
+    "keywords": [
+      "classroom",
+      "computer"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 38,
+    "question": "Which classrooms have projectors?",
+    "answer": "RAIT's published infrastructure information indicates that classrooms have projector facilities.",
+    "category": "general",
+    "keywords": [
+      "classroom",
+      "projector"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 39,
+    "question": "Which rooms have air conditioning?",
+    "answer": "The floor boards do not say which rooms are air-conditioned. The faculty room on the floor you are asking about will know: 402 on Level 4, 502 on Level 5 or 602 on Level 6.",
+    "category": "faculty",
+    "keywords": [
+      "room",
+      "air",
+      "conditioning"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 40,
+    "question": "Where is the nearest classroom to the library?",
+    "answer": "The classrooms closest to the library are on the same floor, Level 3: ET 304, ET 305, ET 306, ET 314 and ET 315. Take the lift up to Level 3; the stairs work if the lift is busy. The directory board faces you as you step out.",
+    "category": "location",
+    "keywords": [
+      "nearest",
+      "classroom",
+      "library"
+    ],
+    "specificity": "concrete",
+    "from": "building"
+  },
+  {
+    "id": 41,
+    "question": "How do I find Room C-101?",
+    "answer": "The floor boards do not use a C prefix. Room 101 is the Administrative Office on Level 1; if your timetable says C-101, check the letter with your department's faculty room.",
+    "category": "faculty",
+    "keywords": [
+      "room",
+      "c",
+      "101"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 42,
+    "question": "Which building contains Room 210?",
+    "answer": "There is no Room 210 on the Level 2 board; the rooms there run from 201 to 215. The closest are 208 (Machines & Drives Lab) and 211 (Smart Grid Lab). Worth double-checking the number on your timetable.",
+    "category": "location",
+    "keywords": [
+      "building",
+      "contain",
+      "room",
+      "210"
+    ],
+    "specificity": "concrete",
+    "from": "building"
+  },
+  {
+    "id": 43,
+    "question": "Is Room 405 accessible by wheelchair?",
+    "answer": "Room 405 is a classroom on Level 4, the Computer Science & Engineering floor. Take the lift up to Level 4; the stairs work if the lift is busy. The directory board faces you as you step out. 405 sits between 404 (Classroom) and 406 (Classroom).",
+    "category": "location",
+    "keywords": [
+      "room",
+      "405",
+      "accessible",
+      "wheelchair"
+    ],
+    "specificity": "concrete",
+    "from": "building"
+  },
+  {
+    "id": 44,
+    "question": "Where can I find the postgraduate classrooms?",
+    "answer": "The boards show no separate postgraduate block; postgraduate classes run on the department floors. Ask me for your department and I will give you its floor and faculty room.",
+    "category": "faculty",
+    "keywords": [
+      "postgraduate",
+      "classroom"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 45,
+    "question": "Where are the first-year classrooms?",
+    "answer": "The Engineering Sciences department is on the ground floor (Level 0). The Head of Department's office is Room 001. No stairs needed: it is on the ground floor, so follow the room numbers from the directory board by the lift lobby.",
+    "category": "location",
+    "keywords": [
+      "first",
+      "year",
+      "classroom"
+    ],
+    "specificity": "concrete",
+    "from": "building"
+  },
+  {
+    "id": 46,
+    "question": "Which floor contains the CS department classrooms?",
+    "answer": "Computer Science & Engineering classrooms are on Level 4: 404 to 406, 412A, 412B, 414 and 415. Computer Engineering classrooms are on Level 5: 504 to 506, 511, 514 and 515.",
+    "category": "location",
+    "keywords": [
+      "floor",
+      "contain",
+      "cs",
+      "department",
+      "classroom"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 47,
+    "question": "Where are the tutorial rooms?",
+    "answer": "The boards list no separate tutorial rooms; tutorials run in the department classrooms. Your division's timetable gives the room, and its first digit is the floor.",
+    "category": "location",
+    "keywords": [
+      "tutorial",
+      "room"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 48,
+    "question": "Where are the faculty meeting rooms?",
+    "answer": "The building has two conference rooms: Room 003 on the ground floor and Room 106 on Level 1. Department faculty rooms are 402 and 412C on Level 4, 502 on Level 5 and 602 on Level 6.",
+    "category": "faculty",
+    "keywords": [
+      "faculty",
+      "meeting",
+      "room"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 49,
+    "question": "Which rooms are used for examinations?",
+    "answer": "Examination rooms are published in the examination timetable and may change for each exam.",
+    "category": "academic",
+    "keywords": [
+      "room",
+      "used",
+      "examination"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 50,
+    "question": "Where is the nearest restroom to Room 402?",
+    "answer": "Washrooms are beside the lift lobby on each floor, so from Room 402 on Level 4 head back towards the lifts and the directory board.",
+    "category": "location",
+    "keywords": [
+      "nearest",
+      "washroom",
+      "room",
+      "402"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 51,
+    "question": "Where is the computer science department?",
+    "answer": "The Computer Science & Engineering department is on Level 4. The Head of Department's office is Room 403, and the faculty room is 402. Take the lift up to Level 4; the stairs work if the lift is busy. The directory board faces you as you step out.",
+    "category": "location",
+    "keywords": [
+      "computer",
+      "department"
+    ],
+    "specificity": "concrete",
+    "from": "building"
+  },
+  {
+    "id": 52,
+    "question": "Where is the electrical engineering department?",
+    "answer": "The Electrical & Instrumentation Engineering department is on Level 2. The Head of Department's office is Room 203. Level 2 is close, so the main stairs are quickest; the lift works too. The directory board faces the lifts on the landing.",
+    "category": "location",
+    "keywords": [
+      "electrical",
+      "engineering",
+      "department"
+    ],
+    "specificity": "concrete",
+    "from": "building"
+  },
+  {
+    "id": 53,
+    "question": "Where is the mechanical engineering department?",
+    "answer": "RAIT's published program information does not list a Mechanical Engineering department among its main engineering departments.",
+    "category": "location",
+    "keywords": [
+      "mechanical",
+      "engineering",
+      "department"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 54,
+    "question": "Where is the mathematics department?",
+    "answer": "Mathematics for first-year students is taught by the Engineering Sciences department on the ground floor. Its Head sits in Room 001, the first room on the ground-floor board.",
+    "category": "location",
+    "keywords": [
+      "mathematic",
+      "department"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 55,
+    "question": "Where is the physics department?",
+    "answer": "Room 113 is the Physics Lab on Level 1, the administration floor. Level 1 is close, so the main stairs are quickest; the lift works too. The directory board faces the lifts on the landing. 113 sits between 112 (Computational & Embedded Systems Lab) and 114 (Classroom).",
+    "category": "faculty",
+    "keywords": [
+      "physic",
+      "department"
+    ],
+    "specificity": "concrete",
+    "from": "building"
+  },
+  {
+    "id": 56,
+    "question": "Where is the chemistry department?",
+    "answer": "Room 002 is the Chemistry Lab on the ground floor (Level 0), the Engineering Sciences floor. No stairs needed: it is on the ground floor, so follow the room numbers from the directory board by the lift lobby. 002 sits between 001 (Head of Engineering Sciences) and 003 (Conference Room).",
+    "category": "faculty",
+    "keywords": [
+      "chemistry",
+      "department"
+    ],
+    "specificity": "concrete",
+    "from": "building"
+  },
+  {
+    "id": 57,
+    "question": "Where is the English department?",
+    "answer": "English and communication skills for first-year students are taught by the Engineering Sciences department on the ground floor, whose Head sits in Room 001.",
+    "category": "location",
+    "keywords": [
+      "english",
+      "department"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 58,
+    "question": "Where is the economics department?",
+    "answer": "RAIT is an engineering institute with no economics department. Economics and management subjects are taught within the engineering programmes; first-year subjects are run by Engineering Sciences on the ground floor.",
+    "category": "location",
+    "keywords": [
+      "economic",
+      "department"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 59,
+    "question": "Where is the business administration department?",
+    "answer": "Room 101 is the Administrative Office on Level 1, the administration floor. Level 1 is close, so the main stairs are quickest; the lift works too. The directory board faces the lifts on the landing. 101 sits first on the board, just before 103 (Principal's Office).",
+    "category": "location",
+    "keywords": [
+      "business",
+      "administration",
+      "department"
+    ],
+    "specificity": "concrete",
+    "from": "building"
+  },
+  {
+    "id": 60,
+    "question": "Which building houses the biology department?",
+    "answer": "Biology is not listed among RAIT's principal engineering departments. Ask the D. Y. Patil campus administration if you mean another institute.",
+    "category": "location",
+    "keywords": [
+      "building",
+      "house",
+      "biology",
+      "department"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 61,
+    "question": "Where can I find the undergraduate office for CS?",
+    "answer": "For Computer Engineering, go to Level 5: the faculty room is 502, and the Head of Department, Amarsinh Vidhate Sir, sits in Room 503.",
+    "category": "faculty",
+    "keywords": [
+      "undergraduate",
+      "office",
+      "cs"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 62,
+    "question": "Where is the postgraduate office for engineering?",
+    "answer": "The boards show no separate postgraduate office. Postgraduate matters go through your department's floor, or the Administrative Office in Room 101 on Level 1.",
+    "category": "location",
+    "keywords": [
+      "postgraduate",
+      "office",
+      "engineering"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 63,
+    "question": "Who should I contact in the computer science department?",
+    "answer": "For Computer Science & Engineering, go to Level 4: the faculty rooms are 402 and 412C, and the Head of Department sits in Room 403.",
+    "category": "faculty",
+    "keywords": [
+      "contact",
+      "computer",
+      "department"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 64,
+    "question": "What programs does the computer science department offer?",
+    "answer": "RAIT's Computer Engineering Department offers undergraduate and postgraduate academic programs, with additional research/doctoral activity listed in institute documentation.",
+    "category": "general",
+    "keywords": [
+      "program",
+      "computer",
+      "department",
+      "offer"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 65,
+    "question": "Which department handles data science?",
+    "answer": "Data science is taught by the computer departments. The Data Science Lab is Room 513 and the Big Data Analytics Lab is Room 508, both on Level 5 with Computer Engineering.",
+    "category": "location",
+    "keywords": [
+      "department",
+      "handle",
+      "data",
+      "science"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 66,
+    "question": "Which department offers artificial intelligence courses?",
+    "answer": "AI and machine learning subjects are offered by the computer departments on Levels 4 and 5. Related labs include the Data Science Lab (513) and Big Data Analytics Lab (508) on Level 5, and the Machine Intelligence Lab (202) on Level 2.",
+    "category": "facility",
+    "keywords": [
+      "department",
+      "offer",
+      "artificial",
+      "intelligence",
+      "course"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 67,
+    "question": "Where is the interdisciplinary studies office?",
+    "answer": "Ask RAIT administration for the current office handling interdisciplinary academic matters.",
+    "category": "location",
+    "keywords": [
+      "interdisciplinary",
+      "studie",
+      "office"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 68,
+    "question": "Where can I find the department notice board?",
+    "answer": "Notices are shown on the screens in each floor's lift lobby, beside the directory board, and published on the student portal.",
+    "category": "location",
+    "keywords": [
+      "department",
+      "notice",
+      "board"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 69,
+    "question": "Where is the department reception?",
+    "answer": "Departments do not have a reception desk on the boards; each has a faculty room and a Head of Department's office on its own floor. Tell me your branch and I will give you both room numbers.",
+    "category": "faculty",
+    "keywords": [
+      "department",
+      "reception"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 70,
+    "question": "Where is the department office for first-year students?",
+    "answer": "First-year students belong to the Engineering Sciences department on the ground floor (Level 0). Its Head sits in Room 001, the first room on the ground-floor board.",
+    "category": "location",
+    "keywords": [
+      "department",
+      "office",
+      "first",
+      "year",
+      "student"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 71,
+    "question": "Who teaches CS101?",
+    "answer": "Introductory programming (CS101) is a first-year subject run by the Engineering Sciences department on the ground floor, whose Head sits in Room 001. The floor boards do not name individual teachers; your division's timetable does. Practicals are in the Computer Programming Lab, Room 523 on Level 5.",
+    "category": "faculty",
+    "keywords": [
+      "faculty",
+      "cs101"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 72,
+    "question": "Who is the professor for Introduction to Mathematics?",
+    "answer": "First-year mathematics is taught by the Engineering Sciences department on the ground floor. The boards do not name individual teachers; your division's timetable does, or ask at the Head of Engineering Sciences' office, Room 001.",
+    "category": "faculty",
+    "keywords": [
+      "faculty",
+      "introduction",
+      "mathematic"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 73,
+    "question": "Who coordinates the computer science program?",
+    "answer": "RAIT uses the department name Computer Engineering. The current department coordinator should be confirmed from the latest department notice.",
+    "category": "faculty",
+    "keywords": [
+      "coordinate",
+      "computer",
+      "program"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 74,
+    "question": "Who is the head of the CS department?",
+    "answer": "The floor board does not name the Head of Computer Science & Engineering, but their office is Room 403 on Level 4. Take the lift up to Level 4; the stairs work if the lift is busy. The directory board faces you as you step out. 403 sits between 402 (Faculty Room) and 404 (Classroom).",
+    "category": "faculty",
+    "keywords": [
+      "hod"
+    ],
+    "specificity": "concrete",
+    "from": "building"
+  },
+  {
+    "id": 75,
+    "question": "Who is my academic advisor?",
+    "answer": "Your academic advisor is normally assigned by your department/class. Check your class notice or ask your class coordinator.",
+    "category": "faculty",
+    "keywords": [
+      "academic",
+      "advisor"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 76,
+    "question": "Where is Professor Sharma's office?",
+    "answer": "The floor boards list shared faculty rooms rather than individual cabins: 402 and 412C on Level 4, 502 on Level 5 and 602 on Level 6. Ask at the faculty room on your professor's department floor.",
+    "category": "faculty",
+    "keywords": [
+      "faculty",
+      "sharma",
+      "s",
+      "office"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 77,
+    "question": "What are Professor Patel's office hours?",
+    "answer": "Office hours are not on the floor boards. Ask at the faculty room on your professor's department floor: 402 on Level 4, 502 on Level 5 or 602 on Level 6.",
+    "category": "timing",
+    "keywords": [
+      "faculty",
+      "patel",
+      "s",
+      "office",
+      "timing"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 78,
+    "question": "How can I contact the CS101 instructor?",
+    "answer": "Your CS101 teacher's name is on your division's timetable. First-year subjects are run by the Engineering Sciences department on the ground floor, with its Head in Room 001.",
+    "category": "faculty",
+    "keywords": [
+      "contact",
+      "cs101",
+      "instructor"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 79,
+    "question": "Which faculty member teaches Data Structures?",
+    "answer": "The floor boards do not name teachers, but Data Structures practicals run in the Data Structures & Algorithms Lab, Room 520 on Level 5. The faculty room on that floor, 502, can tell you who takes your division.",
+    "category": "faculty",
+    "keywords": [
+      "faculty",
+      "member",
+      "data",
+      "structure"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 80,
+    "question": "Who teaches Database Management?",
+    "answer": "The boards do not name teachers. Database practicals run in the Database Management Systems Labs, Room 522 on Level 5 and 616A on Level 6; the faculty rooms on those floors, 502 and 602, will know who teaches your division.",
+    "category": "faculty",
+    "keywords": [
+      "faculty",
+      "database",
+      "management"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 81,
+    "question": "Who teaches Physics 101?",
+    "answer": "Physics is a first-year subject taught by the Engineering Sciences department on the ground floor; the Physics Lab is Room 113 on Level 1. The boards do not name teachers, but your division's timetable does.",
+    "category": "faculty",
+    "keywords": [
+      "faculty",
+      "physic",
+      "101"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 82,
+    "question": "Who is the department coordinator?",
+    "answer": "The boards do not name coordinators. Your department's faculty room will point you to them: 402 for Computer Science, 502 for Computer Engineering, 602 for IT.",
+    "category": "faculty",
+    "keywords": [
+      "department",
+      "coordinator"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 83,
+    "question": "Where can I find the faculty directory?",
+    "answer": "The directory board facing the lifts on each floor lists every room, including the faculty rooms and the Head of Department's office. Ask me for any department and I will give you its floor and room numbers.",
+    "category": "faculty",
+    "keywords": [
+      "faculty",
+      "directory"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 84,
+    "question": "Which professors are available for student consultations?",
+    "answer": "Faculty are available through their department's faculty room: 402 and 412C on Level 4, 502 on Level 5 and 602 on Level 6. Drop by between lectures.",
+    "category": "faculty",
+    "keywords": [
+      "faculty",
+      "available",
+      "student",
+      "consultation"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 85,
+    "question": "Where is the faculty office for Professor Rao?",
+    "answer": "There are four faculty rooms in the building: 402 on Level 4, 412C on Level 4, 502 on Level 5 and 602 on Level 6. Each level's directory board, facing the lifts, points you to the right door.",
+    "category": "faculty",
+    "keywords": [
+      "faculty",
+      "office",
+      "rao"
+    ],
+    "specificity": "concrete",
+    "from": "building"
+  },
+  {
+    "id": 86,
+    "question": "What is the email address of my course instructor?",
+    "answer": "Check the official RAIT faculty directory or LMS for your assigned instructor's institutional email.",
+    "category": "faculty",
+    "keywords": [
+      "email",
+      "address",
+      "course",
+      "instructor"
+    ],
+    "specificity": "deferral"
+  },
+  {
+    "id": 87,
+    "question": "When is my professor available for office hours?",
+    "answer": "Most faculty hold office hours between 2:00 PM and 4:00 PM on weekdays. Ask at the faculty room on your department's floor for your professor's slot: 402 on Level 4, 502 on Level 5 or 602 on Level 6.",
+    "category": "timing",
+    "keywords": [
+      "faculty",
+      "available",
+      "office",
+      "timing"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 88,
+    "question": "Who should I contact about a course-related question?",
+    "answer": "Start with your subject teacher. If you cannot find them, go to the faculty room on your department's floor, and after that the Head of Department's office on the same floor.",
+    "category": "faculty",
+    "keywords": [
+      "contact",
+      "course",
+      "related",
+      "question"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 89,
+    "question": "Who handles undergraduate academic advising?",
+    "answer": "Academic advising is handled on your department's floor: start at the faculty room, then the Head of Department's office. For first-years that is the Engineering Sciences department, Room 001 on the ground floor.",
+    "category": "faculty",
+    "keywords": [
+      "handle",
+      "undergraduate",
+      "academic",
+      "advising"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 90,
+    "question": "Who is responsible for laboratory sessions?",
+    "answer": "The faculty member assigned to the course and the laboratory in-charge supervise laboratory sessions.",
+    "category": "faculty",
+    "keywords": [
+      "responsible",
+      "lab",
+      "session"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 91,
+    "question": "What time does CS101 start today?",
+    "answer": "The first lecture of the day starts at 9:00 AM. Your division's timetable, from the Engineering Sciences department on the ground floor, has the exact CS101 slot.",
+    "category": "timing",
+    "keywords": [
+      "time",
+      "cs101",
+      "start",
+      "today"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 92,
+    "question": "Where can I find my class timetable?",
+    "answer": "Timetables are published on the student portal and by your department. First-year timetables come from the Engineering Sciences department on the ground floor, whose Head sits in Room 001.",
+    "category": "location",
+    "keywords": [
+      "class",
+      "timing"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 93,
+    "question": "What classes do I have tomorrow?",
+    "answer": "Use your batch-specific timetable; the schedule differs by year, division, and semester.",
+    "category": "timing",
+    "keywords": [
+      "classe",
+      "tomorrow"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 94,
+    "question": "What room is my next class in?",
+    "answer": "Check your current timetable for the room assigned to your batch.",
+    "category": "location",
+    "keywords": [
+      "room",
+      "next",
+      "class"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 95,
+    "question": "Has today's lecture been rescheduled?",
+    "answer": "Check the latest department notice, LMS announcement, or official class communication for schedule changes.",
+    "category": "timing",
+    "keywords": [
+      "today",
+      "s",
+      "lecture",
+      "rescheduled"
+    ],
+    "specificity": "deferral"
+  },
+  {
+    "id": 96,
+    "question": "Is there a CS class this afternoon?",
+    "answer": "This depends on your batch timetable. Check the current Computer Engineering schedule.",
+    "category": "timing",
+    "keywords": [
+      "cs",
+      "class",
+      "afternoon"
+    ],
+    "specificity": "deferral"
+  },
+  {
+    "id": 97,
+    "question": "What time is the first lecture on Monday?",
+    "answer": "The first lecture on Monday starts at 9:00 AM. Teaching runs from 9:00 AM to 5:00 PM with a lunch break between 1:00 PM and 2:00 PM.",
+    "category": "timing",
+    "keywords": [
+      "time",
+      "first",
+      "lecture",
+      "monday"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 98,
+    "question": "When does the mathematics class start?",
+    "answer": "Check your batch timetable for the exact mathematics lecture time.",
+    "category": "timing",
+    "keywords": [
+      "mathematic",
+      "class",
+      "start"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 99,
+    "question": "When does the last class finish today?",
+    "answer": "The last class finishes at 5:00 PM on a normal teaching day. Laboratory sessions can run until 5:30 PM.",
+    "category": "timing",
+    "keywords": [
+      "last",
+      "class",
+      "finish",
+      "today"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 100,
+    "question": "Where is the timetable for first-year students?",
+    "answer": "First-year timetables come from the Engineering Sciences department on the ground floor, whose Head sits in Room 001, and are also published on the student portal.",
+    "category": "location",
+    "keywords": [
+      "timing",
+      "first",
+      "year",
+      "student"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 101,
+    "question": "Which classes are scheduled in Room 402 today?",
+    "answer": "Room 402 is the Faculty Room on Level 4, the Computer Science & Engineering floor. Take the lift up to Level 4; the stairs work if the lift is busy. The directory board faces you as you step out. 402 sits between 401 (Apple in Education Lab) and 403 (Head of Computer Science & Engineering). The floor board does not list class timings; your department timetable, posted near the faculty room on that floor, will have them.",
+    "category": "location",
+    "keywords": [
+      "classe",
+      "scheduled",
+      "room",
+      "402",
+      "today"
+    ],
+    "specificity": "concrete",
+    "from": "building"
+  },
+  {
+    "id": 102,
+    "question": "Is the CS101 class happening today?",
+    "answer": "Check the latest timetable and any department cancellation/rescheduling notice.",
+    "category": "general",
+    "keywords": [
+      "cs101",
+      "class",
+      "happening",
+      "today"
+    ],
+    "specificity": "deferral"
+  },
+  {
+    "id": 103,
+    "question": "Has my professor changed the lecture time?",
+    "answer": "Verify the latest official timetable or announcement from the department.",
+    "category": "timing",
+    "keywords": [
+      "faculty",
+      "changed",
+      "lecture",
+      "time"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 104,
+    "question": "When is the next tutorial for CS101?",
+    "answer": "Check the course timetable or ask the CS101 class coordinator.",
+    "category": "timing",
+    "keywords": [
+      "next",
+      "tutorial",
+      "cs101"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 105,
+    "question": "When is the next laboratory session?",
+    "answer": "Laboratory sessions run on weekday afternoons from 2:00 PM to 5:00 PM. Your department timetable lists which day your batch is scheduled.",
+    "category": "timing",
+    "keywords": [
+      "next",
+      "lab",
+      "session"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 106,
+    "question": "What is the schedule for the computer lab?",
+    "answer": "Computer laboratory schedules are batch-specific. Check the department timetable.",
+    "category": "timing",
+    "keywords": [
+      "timing",
+      "computer",
+      "lab"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 107,
+    "question": "Are there classes on Saturday?",
+    "answer": "Saturdays are used for practicals, remedial sessions and departmental events rather than regular lectures. The teaching week is Monday to Friday.",
+    "category": "general",
+    "keywords": [
+      "classe",
+      "saturday"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 108,
+    "question": "Which classes are scheduled tomorrow morning?",
+    "answer": "Use your batch timetable to see the next day's morning classes.",
+    "category": "general",
+    "keywords": [
+      "classe",
+      "scheduled",
+      "tomorrow",
+      "morning"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 109,
+    "question": "What time is lunch break?",
+    "answer": "Lunch breaks vary by timetable and year. Check your batch schedule.",
+    "category": "timing",
+    "keywords": [
+      "time",
+      "lunch",
+      "break"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 110,
+    "question": "Where can I check timetable changes?",
+    "answer": "Timetable changes are announced on the student portal and by your department. First-years should check with the Engineering Sciences department on the ground floor.",
+    "category": "location",
+    "keywords": [
+      "check",
+      "timing",
+      "change"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 111,
+    "question": "Where is the library?",
+    "answer": "Room 312 is the Library & Information Centre on Level 3, the Electronics & Telecommunication Engineering floor. Take the lift up to Level 3; the stairs work if the lift is busy. The directory board faces you as you step out. 312 sits between ET 311B (Communication Lab) and 313 (Stack Room).",
+    "category": "location",
+    "keywords": [
+      "library"
+    ],
+    "specificity": "concrete",
+    "from": "building"
+  },
+  {
+    "id": 112,
+    "question": "What time does the library open?",
+    "answer": "The Library & Information Centre opens at 8:00 AM on weekdays and 9:00 AM on Saturday. It is Room 312 on Level 3.",
+    "category": "timing",
+    "keywords": [
+      "time",
+      "library",
+      "open"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 113,
+    "question": "What time does the library close today?",
+    "answer": "The library closes at 8:00 PM today. On Saturdays it closes at 5:00 PM, and it stays shut on Sundays.",
+    "category": "timing",
+    "keywords": [
+      "time",
+      "library",
+      "close",
+      "today"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 114,
+    "question": "Is the library open on Sundays?",
+    "answer": "No, the library is closed on Sundays. It runs 8:00 AM to 8:00 PM Monday to Friday and 9:00 AM to 5:00 PM on Saturday.",
+    "category": "timing",
+    "keywords": [
+      "library",
+      "open",
+      "sunday"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 115,
+    "question": "When is the library café open?",
+    "answer": "The Library on Level 3 has no café of its own; the place to eat in this building is the canteen in the basement, open 8:00 AM to 6:00 PM, Monday to Saturday.",
+    "category": "timing",
+    "keywords": [
+      "library",
+      "cafeteria",
+      "open"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 116,
+    "question": "Where is the library café?",
+    "answer": "The Library on Level 3 has no café of its own; food in this building is at the canteen. The canteen is in the basement. Take the stairs down one level from the ground-floor lobby; the workshop and the store are down there too.",
+    "category": "location",
+    "keywords": [
+      "library",
+      "cafeteria"
+    ],
+    "specificity": "concrete",
+    "from": "building"
+  },
+  {
+    "id": 117,
+    "question": "Can I reserve a study room?",
+    "answer": "Ask the library about current study-room reservation rules and availability.",
+    "category": "location",
+    "keywords": [
+      "reserve",
+      "study",
+      "room"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 118,
+    "question": "Where are the quiet study areas?",
+    "answer": "Ask the RAIT library staff for designated quiet-study areas.",
+    "category": "faculty",
+    "keywords": [
+      "quiet",
+      "study",
+      "area"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 119,
+    "question": "Where can I find the reference section?",
+    "answer": "The reference section is inside the library. Ask library staff for the current shelf/section location.",
+    "category": "faculty",
+    "keywords": [
+      "reference",
+      "section"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 120,
+    "question": "Where are the computers in the library?",
+    "answer": "Ask library staff for the current computer-use area.",
+    "category": "faculty",
+    "keywords": [
+      "computer",
+      "library"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 121,
+    "question": "Can I print documents in the library?",
+    "answer": "Ask the library whether printing is currently available and what procedure or charges apply.",
+    "category": "facility",
+    "keywords": [
+      "print",
+      "document",
+      "library"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 122,
+    "question": "Where can I borrow textbooks?",
+    "answer": "Borrowable textbooks are available through the library circulation section.",
+    "category": "location",
+    "keywords": [
+      "borrow",
+      "textbook"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 123,
+    "question": "How do I renew a library book?",
+    "answer": "You can renew a book at the library issue desk or from your account on the library portal, as long as nobody else has reserved it. Books are issued for fourteen days and can be renewed twice.",
+    "category": "facility",
+    "keywords": [
+      "renew",
+      "library",
+      "book"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 124,
+    "question": "Where should I return borrowed books?",
+    "answer": "Return books at the RAIT library circulation/return desk according to the library's current procedure.",
+    "category": "location",
+    "keywords": [
+      "return",
+      "borrowed",
+      "book"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 125,
+    "question": "Is there a 24-hour study area?",
+    "answer": "The reading hall at the west end of the library stays open until 10:00 PM during examination weeks. Outside examination periods the library closes at 8:00 PM and there is no 24-hour study area.",
+    "category": "timing",
+    "keywords": [
+      "24",
+      "hour",
+      "study",
+      "area"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 126,
+    "question": "Where are the group-study rooms?",
+    "answer": "Ask library staff for currently designated group-study rooms.",
+    "category": "faculty",
+    "keywords": [
+      "group",
+      "study",
+      "room"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 127,
+    "question": "How many people can use a study room?",
+    "answer": "The library study rooms seat six people each. There are four of them along the west wall of the library, and you book one at the issue desk for up to two hours.",
+    "category": "timing",
+    "keywords": [
+      "many",
+      "people",
+      "use",
+      "study",
+      "room"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 128,
+    "question": "Is Wi-Fi available in the library?",
+    "answer": "RAIT's published infrastructure information indicates campus Wi-Fi facilities. Connect using your student credentials where required.",
+    "category": "location",
+    "keywords": [
+      "wifi",
+      "available",
+      "library"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 129,
+    "question": "Where can I find electronic journals?",
+    "answer": "Access electronic journals through the RAIT library's digital resources or institutional subscriptions.",
+    "category": "location",
+    "keywords": [
+      "electronic",
+      "journal"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 130,
+    "question": "Who should I contact about a library problem?",
+    "answer": "Take it to the issue desk inside the Library & Information Centre, Room 312 on Level 3, which handles borrowing, fines and returns.",
+    "category": "faculty",
+    "keywords": [
+      "contact",
+      "library",
+      "problem"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 131,
+    "question": "Where is the student help desk?",
+    "answer": "There is no separate help desk on the boards; student queries go to the Administrative Office, Room 101 on Level 1.",
+    "category": "location",
+    "keywords": [
+      "student",
+      "help",
+      "desk"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 132,
+    "question": "Where is the student ID card office?",
+    "answer": "There is no separate id card office on the floor boards; that goes through the Administrative Office, Room 101 on Level 1. Level 1 is close, so the main stairs are quickest; the lift works too. The directory board faces the lifts on the landing. 101 is the first room on the board, just before 103 (Principal's Office).",
+    "category": "location",
+    "keywords": [
+      "student",
+      "id",
+      "card",
+      "office"
+    ],
+    "specificity": "concrete",
+    "from": "building"
+  },
+  {
+    "id": 133,
+    "question": "Where can I get a replacement ID card?",
+    "answer": "There is no separate id card office on the floor boards; that goes through the Administrative Office, Room 101 on Level 1. Level 1 is close, so the main stairs are quickest; the lift works too. The directory board faces the lifts on the landing. 101 is the first room on the board, just before 103 (Principal's Office).",
+    "category": "location",
+    "keywords": [
+      "replacement",
+      "id",
+      "card"
+    ],
+    "specificity": "concrete",
+    "from": "building"
+  },
+  {
+    "id": 134,
+    "question": "Where is the admissions help desk?",
+    "answer": "There is no separate admissions office on the floor boards; that goes through the Administrative Office, Room 101 on Level 1. Level 1 is close, so the main stairs are quickest; the lift works too. The directory board faces the lifts on the landing. 101 is the first room on the board, just before 103 (Principal's Office).",
+    "category": "location",
+    "keywords": [
+      "admission",
+      "help",
+      "desk"
+    ],
+    "specificity": "concrete",
+    "from": "building"
+  },
+  {
+    "id": 136,
+    "question": "Where can I submit academic forms?",
+    "answer": "Academic forms go to the Administrative Office, Room 101 on Level 1. Exam-related forms go to the Examination Section, Rooms 104 and 105 on the same floor.",
+    "category": "location",
+    "keywords": [
+      "submit",
+      "academic",
+      "form"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 137,
+    "question": "Where is the examination office?",
+    "answer": "There are two examination section rooms in the building: 104 on Level 1 and 105 on Level 1. Each level's directory board, facing the lifts, points you to the right door.",
+    "category": "location",
+    "keywords": [
+      "examination",
+      "office"
+    ],
+    "specificity": "concrete",
+    "from": "building"
+  },
+  {
+    "id": 138,
+    "question": "Where can I get a transcript?",
+    "answer": "There is no separate transcript office on the floor boards; that goes through the Administrative Office, Room 101 on Level 1. Level 1 is close, so the main stairs are quickest; the lift works too. The directory board faces the lifts on the landing. 101 is the first room on the board, just before 103 (Principal's Office).",
+    "category": "location",
+    "keywords": [
+      "transcript"
+    ],
+    "specificity": "concrete",
+    "from": "building"
+  },
+  {
+    "id": 139,
+    "question": "Where is the scholarship office?",
+    "answer": "There is no separate scholarship office on the floor boards; that goes through the Administrative Office, Room 101 on Level 1. Level 1 is close, so the main stairs are quickest; the lift works too. The directory board faces the lifts on the landing. 101 is the first room on the board, just before 103 (Principal's Office).",
+    "category": "location",
+    "keywords": [
+      "scholarship",
+      "office"
+    ],
+    "specificity": "concrete",
+    "from": "building"
+  },
+  {
+    "id": 140,
+    "question": "Where is the financial aid office?",
+    "answer": "There is no separate financial aid office on the floor boards; that goes through the Administrative Office, Room 101 on Level 1. Level 1 is close, so the main stairs are quickest; the lift works too. The directory board faces the lifts on the landing. 101 is the first room on the board, just before 103 (Principal's Office).",
+    "category": "location",
+    "keywords": [
+      "financial",
+      "aid",
+      "office"
+    ],
+    "specificity": "concrete",
+    "from": "building"
+  },
+  {
+    "id": 141,
+    "question": "Where is the health center?",
+    "answer": "RAIT students can ask campus administration/security for the current health-center or medical-facility location.",
+    "category": "location",
+    "keywords": [
+      "health",
+      "center"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 142,
+    "question": "Where is the campus clinic?",
+    "answer": "The floor boards do not show a medical room. For first aid, ask at the Administrative Office in Room 101 on Level 1 or at security at the main gate, and in an emergency call 112.",
+    "category": "location",
+    "keywords": [
+      "campu",
+      "clinic"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 143,
+    "question": "Where is the counseling center?",
+    "answer": "Ask the student-support office or administration for the current counseling service location.",
+    "category": "location",
+    "keywords": [
+      "counseling",
+      "center"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 144,
+    "question": "Where is the lost-and-found office?",
+    "answer": "There is no separate lost and found office on the floor boards; that goes through the Administrative Office, Room 101 on Level 1. Level 1 is close, so the main stairs are quickest; the lift works too. The directory board faces the lifts on the landing. 101 is the first room on the board, just before 103 (Principal's Office).",
+    "category": "location",
+    "keywords": [
+      "lost",
+      "found",
+      "office"
+    ],
+    "specificity": "concrete",
+    "from": "building"
+  },
+  {
+    "id": 145,
+    "question": "Where can I report a maintenance problem?",
+    "answer": "Report maintenance problems to the Administrative Office, Room 101 on Level 1. Electrical faults can also be reported to the staff on the floor where they happen.",
+    "category": "faculty",
+    "keywords": [
+      "report",
+      "maintenance",
+      "problem"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 146,
+    "question": "Where can I find campus security?",
+    "answer": "Campus security personnel are stationed at campus access points. Ask the main gate security desk for assistance.",
+    "category": "location",
+    "keywords": [
+      "campu",
+      "security"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 147,
+    "question": "Where is the nearest ATM?",
+    "answer": "There is no ATM on the floor boards of the main building. Security at the main gate can point you to the nearest one.",
+    "category": "location",
+    "keywords": [
+      "nearest",
+      "atm"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 148,
+    "question": "Where can I find drinking-water stations?",
+    "answer": "Drinking water is available near the lift lobby on each floor, and at the canteen in the basement.",
+    "category": "location",
+    "keywords": [
+      "drinking",
+      "water",
+      "station"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 149,
+    "question": "Where are the accessible entrances and ramps?",
+    "answer": "Ask campus security or administration for the nearest accessible entrance and ramp for a specific building.",
+    "category": "location",
+    "keywords": [
+      "accessible",
+      "entrance",
+      "ramp"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 150,
+    "question": "Who should I contact if I am lost on campus?",
+    "answer": "Every floor has a directory board facing the lifts that lists every room on that level. Tell me the room you need; security at the main gate can help too.",
+    "category": "faculty",
+    "keywords": [
+      "contact",
+      "lost",
+      "campu"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 151,
+    "question": "How do I get from the main gate to the library?",
+    "answer": "Room 312 is the Library & Information Centre on Level 3, the Electronics & Telecommunication Engineering floor. Take the lift up to Level 3; the stairs work if the lift is busy. The directory board faces you as you step out. 312 sits between ET 311B (Communication Lab) and 313 (Stack Room).",
+    "category": "facility",
+    "keywords": [
+      "main",
+      "gate",
+      "library"
+    ],
+    "specificity": "concrete",
+    "from": "building"
+  },
+  {
+    "id": 152,
+    "question": "How do I get from the library to the CS department?",
+    "answer": "From the library on Level 3, head up one floor to Level 4. The Computer Science & Engineering department is on Level 4. The Head of Department's office is Room 403, and the faculty room is 402. Take the lift up to Level 4; the stairs work if the lift is busy. The directory board faces you as you step out.",
+    "category": "faculty",
+    "keywords": [
+      "library",
+      "cs",
+      "department"
+    ],
+    "specificity": "concrete",
+    "from": "building"
+  },
+  {
+    "id": 153,
+    "question": "What is the fastest route to the engineering block?",
+    "answer": "All the engineering departments are in the main building, straight ahead from the main gate. From the lobby lifts: Level 2 is Electrical & Instrumentation, 3 is E&TC, 4 is Computer Science, 5 is Computer Engineering and 6 is IT.",
+    "category": "location",
+    "keywords": [
+      "fastest",
+      "route",
+      "engineering",
+      "block"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 154,
+    "question": "Which entrance should I use to reach the science building?",
+    "answer": "There is one main building; come in through the main gate and the main entrance. First-year science (Engineering Sciences) is on the ground floor, and the Physics Lab is Room 113 on Level 1.",
+    "category": "location",
+    "keywords": [
+      "entrance",
+      "use",
+      "reach",
+      "science",
+      "building"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 155,
+    "question": "How long does it take to walk from the hostel to the classroom block?",
+    "answer": "Allow about ten minutes from the hostel to the main building, plus a couple of minutes for the lifts at peak time, to make the 9:00 AM lecture.",
+    "category": "timing",
+    "keywords": [
+      "long",
+      "take",
+      "walk",
+      "hostel",
+      "classroom",
+      "block"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 156,
+    "question": "Is there a shortcut from the student center to the library?",
+    "answer": "Room 312 is the Library & Information Centre on Level 3, the Electronics & Telecommunication Engineering floor. Take the lift up to Level 3; the stairs work if the lift is busy. The directory board faces you as you step out. 312 sits between ET 311B (Communication Lab) and 313 (Stack Room).",
+    "category": "faculty",
+    "keywords": [
+      "shortcut",
+      "student",
+      "center",
+      "library"
+    ],
+    "specificity": "concrete",
+    "from": "building"
+  },
+  {
+    "id": 157,
+    "question": "Which staircase leads to the second floor?",
+    "answer": "Use the main stairs beside the lift lobby; Level 2 is only two floors up. The directory board faces the lifts on the landing.",
+    "category": "location",
+    "keywords": [
+      "staircase",
+      "lead",
+      "second",
+      "floor"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 158,
+    "question": "Where is the nearest elevator?",
+    "answer": "The lifts are in the main lobby on every level, facing that floor's directory board. In a fire, use the stairs instead.",
+    "category": "location",
+    "keywords": [
+      "nearest",
+      "elevator"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 159,
+    "question": "Which entrance is closest to the auditorium?",
+    "answer": "Both auditoriums, Rooms 611 and 615, are on Level 6. Come in through the main entrance and take the lift up to Level 6.",
+    "category": "general",
+    "keywords": [
+      "entrance",
+      "closest",
+      "auditorium"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 160,
+    "question": "How do I get to the seminar hall?",
+    "answer": "There are three seminar halls in the building: 206 on Level 2, 301 on Level 3 and 302 on Level 3. Each level's directory board, facing the lifts, points you to the right door.",
+    "category": "location",
+    "keywords": [
+      "seminar",
+      "hall"
+    ],
+    "specificity": "concrete",
+    "from": "building"
+  },
+  {
+    "id": 161,
+    "question": "How do I reach the sports complex?",
+    "answer": "Ask the main gate security desk for directions to the sports facilities on the D. Y. Patil campus.",
+    "category": "location",
+    "keywords": [
+      "reach",
+      "sports",
+      "complex"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 162,
+    "question": "How do I get to the cafeteria from Room 402?",
+    "answer": "From Room 402 on Level 4, head down five floors to the basement. The canteen is in the basement. Take the stairs down one level from the ground-floor lobby; the workshop and the store are down there too.",
+    "category": "location",
+    "keywords": [
+      "cafeteria",
+      "room",
+      "402"
+    ],
+    "specificity": "concrete",
+    "from": "building"
+  },
+  {
+    "id": 163,
+    "question": "What building is next to the library?",
+    "answer": "Room 312 is the Library & Information Centre on Level 3, the Electronics & Telecommunication Engineering floor. Take the lift up to Level 3; the stairs work if the lift is busy. The directory board faces you as you step out. 312 sits between ET 311B (Communication Lab) and 313 (Stack Room).",
+    "category": "location",
+    "keywords": [
+      "building",
+      "next",
+      "library"
+    ],
+    "specificity": "concrete",
+    "from": "building"
+  },
+  {
+    "id": 164,
+    "question": "What is located opposite the administration building?",
+    "answer": "Room 101 is the Administrative Office on Level 1, the administration floor. Level 1 is close, so the main stairs are quickest; the lift works too. The directory board faces the lifts on the landing. 101 sits first on the board, just before 103 (Principal's Office).",
+    "category": "location",
+    "keywords": [
+      "located",
+      "opposite",
+      "administration",
+      "building"
+    ],
+    "specificity": "concrete",
+    "from": "building"
+  },
+  {
+    "id": 165,
+    "question": "Where is the nearest exit from this building?",
+    "answer": "Head back to the lift lobby on your floor and take the main stairs down to the ground floor; the main entrance is off the ground-floor lobby. In a fire, always use the stairs, not the lifts.",
+    "category": "location",
+    "keywords": [
+      "nearest",
+      "exit",
+      "building"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 166,
+    "question": "Which gate should I use after 8 PM?",
+    "answer": "Gate access timings can change. Follow the latest campus/security instructions.",
+    "category": "timing",
+    "keywords": [
+      "gate",
+      "use",
+      "after",
+      "8",
+      "pm"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 167,
+    "question": "Where can I find a campus map?",
+    "answer": "Each floor's directory board, facing the lifts, is the map for that level. I have all of them, from the basement to Level 6, so ask me for any room.",
+    "category": "location",
+    "keywords": [
+      "campu",
+      "map"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 168,
+    "question": "Is there a map showing all classroom buildings?",
+    "answer": "All classrooms are in the one main building, and each level's directory board lists them. Ask me what is on any floor and I will list its classrooms.",
+    "category": "location",
+    "keywords": [
+      "map",
+      "showing",
+      "all",
+      "classroom",
+      "building"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 169,
+    "question": "Which building is closest to the main parking lot?",
+    "answer": "Security at the main gate will direct you to student parking for the main building.",
+    "category": "location",
+    "keywords": [
+      "building",
+      "closest",
+      "main",
+      "parking",
+      "lot"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 170,
+    "question": "How do I get to the postgraduate block?",
+    "answer": "There is no separate postgraduate block; everything is in the main building. Postgraduate classes run on each department's floor.",
+    "category": "location",
+    "keywords": [
+      "postgraduate",
+      "block"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 171,
+    "question": "How do I reach the research center?",
+    "answer": "Ask the relevant RAIT department or security desk for the current research-facility location.",
+    "category": "location",
+    "keywords": [
+      "reach",
+      "research",
+      "center"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 172,
+    "question": "Which route is easiest for a first-year student?",
+    "answer": "First-years are on the ground floor with Engineering Sciences, so there is no climbing: walk in from the main entrance and follow the ground-floor directory board.",
+    "category": "location",
+    "keywords": [
+      "route",
+      "easiest",
+      "first",
+      "year",
+      "student"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 173,
+    "question": "Is there an indoor route between these buildings?",
+    "answer": "Everything is in one main building, connected by the lifts and the main stairs, so you never need to go outside to change floors.",
+    "category": "location",
+    "keywords": [
+      "indoor",
+      "route",
+      "between",
+      "building"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 174,
+    "question": "Which entrance has wheelchair access?",
+    "answer": "The main entrance leads to the lift lobby, and the lifts serve every level from the basement to Level 6. Security at the main gate can help with step-free access.",
+    "category": "general",
+    "keywords": [
+      "entrance",
+      "wheelchair",
+      "access"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 175,
+    "question": "Where is the nearest pedestrian crossing?",
+    "answer": "Ask campus security for the nearest safe pedestrian crossing.",
+    "category": "location",
+    "keywords": [
+      "nearest",
+      "pedestrian",
+      "crossing"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 176,
+    "question": "Where is the student parking area?",
+    "answer": "Ask the main gate security staff for the currently designated student parking area.",
+    "category": "faculty",
+    "keywords": [
+      "student",
+      "parking",
+      "area"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 177,
+    "question": "Where can I park my bicycle?",
+    "answer": "Use designated bicycle parking areas and confirm their location with campus security.",
+    "category": "location",
+    "keywords": [
+      "park",
+      "bicycle"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 178,
+    "question": "Is there a bicycle parking area near the library?",
+    "answer": "Ask library/security staff for the nearest designated bicycle parking area.",
+    "category": "faculty",
+    "keywords": [
+      "bicycle",
+      "parking",
+      "area",
+      "near",
+      "library"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 179,
+    "question": "Where is the motorcycle parking lot?",
+    "answer": "Ask campus security for the currently designated two-wheeler parking area.",
+    "category": "location",
+    "keywords": [
+      "motorcycle",
+      "parking",
+      "lot"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 180,
+    "question": "Where can visitors park?",
+    "answer": "Visitors should ask the main gate security staff for the currently permitted visitor parking area.",
+    "category": "faculty",
+    "keywords": [
+      "visitor",
+      "park"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 181,
+    "question": "Do students need a parking permit?",
+    "answer": "Parking rules can change. Confirm current requirements with campus security/administration.",
+    "category": "transport",
+    "keywords": [
+      "student",
+      "need",
+      "parking",
+      "permit"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 182,
+    "question": "Where can I apply for a parking permit?",
+    "answer": "Ask the campus administration or security office about the current parking-permit procedure.",
+    "category": "location",
+    "keywords": [
+      "apply",
+      "parking",
+      "permit"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 183,
+    "question": "Is parking available near the engineering building?",
+    "answer": "Security at the main gate will tell you where to park; all the engineering departments are in the main building.",
+    "category": "location",
+    "keywords": [
+      "parking",
+      "available",
+      "near",
+      "engineering",
+      "building"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 184,
+    "question": "Where is the campus shuttle stop?",
+    "answer": "Ask campus security or administration for the current shuttle-stop location, if shuttle service is operating.",
+    "category": "location",
+    "keywords": [
+      "campu",
+      "shuttle",
+      "stop"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 185,
+    "question": "What time does the campus shuttle start?",
+    "answer": "The first campus shuttle leaves at 7:15 AM from the stop beside Gate 1.",
+    "category": "timing",
+    "keywords": [
+      "time",
+      "campu",
+      "shuttle",
+      "start"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 186,
+    "question": "When is the last campus shuttle?",
+    "answer": "The last campus shuttle leaves at 8:30 PM from the stop beside Gate 1.",
+    "category": "timing",
+    "keywords": [
+      "last",
+      "campu",
+      "shuttle"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 187,
+    "question": "Which shuttle goes to the hostel?",
+    "answer": "Ask the transport desk for the current shuttle route serving your hostel.",
+    "category": "hostel",
+    "keywords": [
+      "shuttle",
+      "hostel"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 188,
+    "question": "Is there a shuttle between the north and south campuses?",
+    "answer": "Confirm current shuttle routes with the campus transport office.",
+    "category": "transport",
+    "keywords": [
+      "shuttle",
+      "between",
+      "north",
+      "south",
+      "campuse"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 189,
+    "question": "Where can I find the campus bus timetable?",
+    "answer": "Ask the transport/administration office for the latest bus timetable.",
+    "category": "location",
+    "keywords": [
+      "campu",
+      "bus",
+      "timing"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 190,
+    "question": "Is there transportation for students with disabilities?",
+    "answer": "Contact RAIT administration in advance to confirm available accessibility transportation arrangements.",
+    "category": "general",
+    "keywords": [
+      "transportation",
+      "student",
+      "disabilitie"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 191,
+    "question": "Where is the nearest bus stop outside campus?",
+    "answer": "The nearest public bus stop is on Sector 7 Road, about three minutes on foot from Gate 1. Nerul railway station is roughly ten minutes away by auto.",
+    "category": "location",
+    "keywords": [
+      "nearest",
+      "bus",
+      "stop",
+      "outside",
+      "campu"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 192,
+    "question": "Which campus gate is closest to the bus stop?",
+    "answer": "Gate 1, the main entrance on Sector 7 Road, is closest to the public bus stop, about three minutes on foot.",
+    "category": "transport",
+    "keywords": [
+      "campu",
+      "gate",
+      "closest",
+      "bus",
+      "stop"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 193,
+    "question": "Where is the pickup point for taxis?",
+    "answer": "Use the designated pickup area and confirm its location with security.",
+    "category": "location",
+    "keywords": [
+      "pickup",
+      "point",
+      "taxi"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 194,
+    "question": "Where can I wait for a campus shuttle?",
+    "answer": "Wait at the designated campus shuttle stop announced by the transport office.",
+    "category": "location",
+    "keywords": [
+      "wait",
+      "campu",
+      "shuttle"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 195,
+    "question": "Does the shuttle operate on weekends?",
+    "answer": "The shuttle runs on Saturdays on the same timings but does not operate on Sundays.",
+    "category": "timing",
+    "keywords": [
+      "shuttle",
+      "operate",
+      "weekend"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 196,
+    "question": "Does the campus shuttle run during holidays?",
+    "answer": "The shuttle does not run on declared institute holidays. Normal service resumes the next working day.",
+    "category": "transport",
+    "keywords": [
+      "campu",
+      "shuttle",
+      "run",
+      "during",
+      "holiday"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 197,
+    "question": "How frequently does the campus bus run?",
+    "answer": "The campus shuttle runs about every twenty minutes between 7:15 AM and 8:30 PM on working days.",
+    "category": "transport",
+    "keywords": [
+      "frequently",
+      "campu",
+      "bus",
+      "run"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 198,
+    "question": "Where can I report a problem with campus transportation?",
+    "answer": "Report transport issues to the campus transport/administration office.",
+    "category": "location",
+    "keywords": [
+      "report",
+      "problem",
+      "campu",
+      "transportation"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 199,
+    "question": "Is there a designated drop-off area?",
+    "answer": "There is a drop-off bay just inside Gate 1, beside the security desk. Vehicles are not allowed further into campus during teaching hours.",
+    "category": "timing",
+    "keywords": [
+      "designated",
+      "drop",
+      "off",
+      "area"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 200,
+    "question": "Where is the nearest parking lot to the auditorium?",
+    "answer": "The auditoriums are inside the main building on Level 6, Rooms 611 and 615, so park where security at the main gate directs you and take the lift up.",
+    "category": "location",
+    "keywords": [
+      "nearest",
+      "parking",
+      "lot",
+      "auditorium"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 201,
+    "question": "Where is the main cafeteria?",
+    "answer": "The canteen is in the basement. Take the stairs down one level from the ground-floor lobby; the workshop and the store are down there too.",
+    "category": "location",
+    "keywords": [
+      "main",
+      "cafeteria"
+    ],
+    "specificity": "concrete",
+    "from": "building"
+  },
+  {
+    "id": 202,
+    "question": "What time does the cafeteria open?",
+    "answer": "The canteen in the basement opens at 8:00 AM, Monday to Saturday.",
+    "category": "timing",
+    "keywords": [
+      "time",
+      "cafeteria",
+      "open"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 203,
+    "question": "What time does the cafeteria close?",
+    "answer": "The canteen in the basement closes at 6:00 PM, Monday to Saturday.",
+    "category": "timing",
+    "keywords": [
+      "time",
+      "cafeteria",
+      "close"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 204,
+    "question": "Is the cafeteria open on weekends?",
+    "answer": "The canteen is open on Saturday from 8:00 AM to 6:00 PM, and closed on Sunday.",
+    "category": "timing",
+    "keywords": [
+      "cafeteria",
+      "open",
+      "weekend"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 205,
+    "question": "What food is available in the cafeteria today?",
+    "answer": "The canteen in the basement serves breakfast items in the morning, meals at lunch and snacks through the afternoon; the day's menu is on the board at the counter.",
+    "category": "facility",
+    "keywords": [
+      "cafeteria",
+      "available",
+      "today"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 206,
+    "question": "Where can I find vegetarian food?",
+    "answer": "The canteen in the basement serves vegetarian food; the menu board at the counter shows what is on today.",
+    "category": "location",
+    "keywords": [
+      "vegetarian",
+      "cafeteria"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 207,
+    "question": "Is there a vegan food option on campus?",
+    "answer": "Check the menu board at the canteen counter in the basement; the staff can tell you which dishes are made without dairy.",
+    "category": "faculty",
+    "keywords": [
+      "vegan",
+      "cafeteria",
+      "option",
+      "campu"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 208,
+    "question": "Where can I get breakfast?",
+    "answer": "Breakfast is at the canteen in the basement from 8:00 AM, Monday to Saturday.",
+    "category": "location",
+    "keywords": [
+      "breakfast"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 209,
+    "question": "Where can I get lunch?",
+    "answer": "The canteen is in the basement. Take the stairs down one level from the ground-floor lobby; the workshop and the store are down there too.",
+    "category": "location",
+    "keywords": [
+      "lunch"
+    ],
+    "specificity": "concrete",
+    "from": "building"
+  },
+  {
+    "id": 210,
+    "question": "Where can I get dinner?",
+    "answer": "The canteen in the basement closes at 6:00 PM, so dinner is not served in the main building. Hostel residents eat in the hostel mess.",
+    "category": "timing",
+    "keywords": [
+      "dinner"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 211,
+    "question": "Is there a coffee shop on campus?",
+    "answer": "The canteen is in the basement. Take the stairs down one level from the ground-floor lobby; the workshop and the store are down there too.",
+    "category": "location",
+    "keywords": [
+      "coffee",
+      "shop",
+      "campu"
+    ],
+    "specificity": "concrete",
+    "from": "building"
+  },
+  {
+    "id": 212,
+    "question": "What time does the campus café open?",
+    "answer": "There is no separate café; the canteen in the basement opens at 8:00 AM, Monday to Saturday.",
+    "category": "timing",
+    "keywords": [
+      "time",
+      "campu",
+      "cafeteria",
+      "open"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 213,
+    "question": "Where can I buy snacks?",
+    "answer": "The canteen is in the basement. Take the stairs down one level from the ground-floor lobby; the workshop and the store are down there too.",
+    "category": "timing",
+    "keywords": [
+      "buy",
+      "snack"
+    ],
+    "specificity": "concrete",
+    "from": "building"
+  },
+  {
+    "id": 214,
+    "question": "Where can I get drinking water?",
+    "answer": "Drinking water is available near the lift lobby on each floor, and at the canteen in the basement.",
+    "category": "location",
+    "keywords": [
+      "drinking",
+      "water"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 215,
+    "question": "Is there a vending machine near the library?",
+    "answer": "Ask library staff whether a vending machine is currently operating nearby.",
+    "category": "faculty",
+    "keywords": [
+      "vending",
+      "machine",
+      "near",
+      "library"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 216,
+    "question": "Where can I find a microwave for students?",
+    "answer": "The floor boards do not list a microwave. Ask at the canteen counter in the basement.",
+    "category": "location",
+    "keywords": [
+      "microwave",
+      "student"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 217,
+    "question": "Are there food options near the engineering block?",
+    "answer": "All the engineering departments are in the main building, and the canteen is in its basement: take the lift or the stairs down from any floor.",
+    "category": "location",
+    "keywords": [
+      "cafeteria",
+      "option",
+      "near",
+      "engineering",
+      "block"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 218,
+    "question": "Which cafeteria is closest to the CS department?",
+    "answer": "There is one canteen, in the basement. From Computer Science on Level 4, take the lift down five floors.",
+    "category": "facility",
+    "keywords": [
+      "cafeteria",
+      "closest",
+      "cs",
+      "department"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 219,
+    "question": "Can students pay by card at the cafeteria?",
+    "answer": "The canteen accepts UPI and cash at the counter.",
+    "category": "facility",
+    "keywords": [
+      "student",
+      "pay",
+      "card",
+      "cafeteria"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 220,
+    "question": "Can I use my student ID to pay for food?",
+    "answer": "The canteen takes UPI and cash. Your ID card is for identification, which is compulsory on campus, not for payment.",
+    "category": "facility",
+    "keywords": [
+      "use",
+      "student",
+      "id",
+      "pay",
+      "cafeteria"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 221,
+    "question": "Is there a meal plan for students?",
+    "answer": "Day scholars pay per item at the canteen in the basement. Hostel residents are on the hostel mess plan.",
+    "category": "hostel",
+    "keywords": [
+      "meal",
+      "plan",
+      "student"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 222,
+    "question": "Where can I find the cafeteria menu?",
+    "answer": "The day's menu is on the board at the canteen counter in the basement.",
+    "category": "location",
+    "keywords": [
+      "cafeteria",
+      "menu"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 223,
+    "question": "Does the cafeteria accommodate food allergies?",
+    "answer": "Tell the staff at the canteen counter in the basement about your allergy before ordering; they can tell you what is in each dish.",
+    "category": "faculty",
+    "keywords": [
+      "cafeteria",
+      "accommodate",
+      "allergie"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 224,
+    "question": "Where can I report a problem with cafeteria service?",
+    "answer": "Raise it with the canteen counter staff first. If it is not sorted, take it to the Administrative Office, Room 101 on Level 1.",
+    "category": "faculty",
+    "keywords": [
+      "report",
+      "problem",
+      "cafeteria",
+      "service"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 225,
+    "question": "Are there restaurants or food stalls inside campus?",
+    "answer": "Inside the main building, food is at the canteen in the basement. Security at the main gate can point you to food stalls nearby.",
+    "category": "location",
+    "keywords": [
+      "restaurant",
+      "cafeteria",
+      "stall",
+      "inside",
+      "campu"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 226,
+    "question": "How do I connect to campus Wi-Fi?",
+    "answer": "Connect to the student Wi-Fi network with your portal login. For connection problems, go to the Computer Center, Room 212 on Level 2.",
+    "category": "location",
+    "keywords": [
+      "connect",
+      "campu",
+      "wifi"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 227,
+    "question": "What is the name of the student Wi-Fi network?",
+    "answer": "The student Wi-Fi network is RAIT-Student. Sign in with your student portal username and password.",
+    "category": "general",
+    "keywords": [
+      "name",
+      "student",
+      "wifi",
+      "network"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 228,
+    "question": "Where can I get help with Wi-Fi problems?",
+    "answer": "Wi-Fi and network problems go to the Computer Center, Room 212 on Level 2.",
+    "category": "location",
+    "keywords": [
+      "help",
+      "wifi",
+      "problem"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 229,
+    "question": "Where is the nearest computer lab?",
+    "answer": "There are four computer labs in the building: 117 on Level 1, 213A on Level 2, 524 on Level 5 and 617 on Level 6. Each level's directory board, facing the lifts, points you to the right door.",
+    "category": "location",
+    "keywords": [
+      "nearest",
+      "computer",
+      "lab"
+    ],
+    "specificity": "concrete",
+    "from": "building"
+  },
+  {
+    "id": 230,
+    "question": "Is the computer lab open today?",
+    "answer": "The computer labs are open 9:00 AM to 5:30 PM on weekdays: Room 117 on Level 1, 213A on Level 2, 524 on Level 5 and 617 on Level 6.",
+    "category": "timing",
+    "keywords": [
+      "computer",
+      "lab",
+      "open",
+      "today"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 231,
+    "question": "What time does the computer lab close?",
+    "answer": "The computer laboratories close at 5:30 PM on weekdays, extended to 7:00 PM during project submission weeks.",
+    "category": "timing",
+    "keywords": [
+      "time",
+      "computer",
+      "lab",
+      "close"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 232,
+    "question": "Can first-year students use the computer lab?",
+    "answer": "Students can use laboratories according to their timetable and department access rules.",
+    "category": "facility",
+    "keywords": [
+      "first",
+      "year",
+      "student",
+      "use",
+      "computer",
+      "lab"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 233,
+    "question": "Do I need my student ID to use campus computers?",
+    "answer": "Access requirements vary by laboratory. Carry your student ID and follow the lab's current rules.",
+    "category": "facility",
+    "keywords": [
+      "need",
+      "student",
+      "id",
+      "use",
+      "campu",
+      "computer"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 234,
+    "question": "Where can I print documents?",
+    "answer": "Printing is available at the Library & Information Centre, Room 312 on Level 3.",
+    "category": "location",
+    "keywords": [
+      "print",
+      "document"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 235,
+    "question": "Where can I scan documents?",
+    "answer": "Check the library or administrative/student-service office for scanning facilities.",
+    "category": "location",
+    "keywords": [
+      "scan",
+      "document"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 236,
+    "question": "Where can I photocopy documents?",
+    "answer": "Ask the library or student-service area for currently available photocopying facilities.",
+    "category": "location",
+    "keywords": [
+      "photocopy",
+      "document"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 237,
+    "question": "How much does printing cost?",
+    "answer": "Printing at the library counter costs two rupees a page for black and white and ten rupees for colour. Pay at the counter by UPI or cash.",
+    "category": "facility",
+    "keywords": [
+      "much",
+      "printing",
+      "cost"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 238,
+    "question": "Where can I recharge my printing account?",
+    "answer": "Ask the printing facility or library for the current recharge procedure.",
+    "category": "location",
+    "keywords": [
+      "recharge",
+      "printing",
+      "account"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 239,
+    "question": "Is there a computer lab open 24 hours?",
+    "answer": "No laboratory is open 24 hours. The computer laboratories run 9:00 AM to 5:30 PM on weekdays and are locked outside those hours.",
+    "category": "timing",
+    "keywords": [
+      "computer",
+      "lab",
+      "open",
+      "24",
+      "timing"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 240,
+    "question": "Where can I borrow a laptop?",
+    "answer": "The floor boards list no laptop loans. Ask at the Library & Information Centre, Room 312 on Level 3, or use a free machine in one of the computer labs: 117, 213A, 524 or 617.",
+    "category": "location",
+    "keywords": [
+      "borrow",
+      "laptop"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 241,
+    "question": "Does the university provide software for students?",
+    "answer": "Some software may be provided through institutional licenses. Check RAIT IT services or your student portal.",
+    "category": "general",
+    "keywords": [
+      "university",
+      "provide",
+      "software",
+      "student"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 242,
+    "question": "Where can I get technical support?",
+    "answer": "Technical support is at the Computer Center, Room 212 on Level 2.",
+    "category": "location",
+    "keywords": [
+      "technical",
+      "support"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 243,
+    "question": "What should I do if my student account is locked?",
+    "answer": "Account and portal problems go to the Computer Center, Room 212 on Level 2. Bring your ID card.",
+    "category": "location",
+    "keywords": [
+      "student",
+      "account",
+      "locked"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 244,
+    "question": "Where can I reset my university password?",
+    "answer": "Use the official RAIT password-reset facility if available or contact IT support.",
+    "category": "location",
+    "keywords": [
+      "reset",
+      "university",
+      "password"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 245,
+    "question": "How do I access the student portal?",
+    "answer": "Use the official RAIT student portal/LMS and your institutional credentials.",
+    "category": "general",
+    "keywords": [
+      "access",
+      "student",
+      "portal"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 246,
+    "question": "Where can I access online course materials?",
+    "answer": "Course materials are normally provided through the official LMS or faculty-approved platform.",
+    "category": "faculty",
+    "keywords": [
+      "access",
+      "online",
+      "course",
+      "material"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 247,
+    "question": "Is Wi-Fi available in the hostel?",
+    "answer": "Confirm current hostel Wi-Fi availability with hostel administration.",
+    "category": "hostel",
+    "keywords": [
+      "wifi",
+      "available",
+      "hostel"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 248,
+    "question": "Is Wi-Fi available in the cafeteria?",
+    "answer": "Campus Wi-Fi coverage can include common areas; connect to the official network and ask IT if access fails.",
+    "category": "general",
+    "keywords": [
+      "wifi",
+      "available",
+      "cafeteria"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 249,
+    "question": "Where are the public charging stations?",
+    "answer": "Ask the library/student center or security desk about currently available charging points.",
+    "category": "location",
+    "keywords": [
+      "public",
+      "charging",
+      "station"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 250,
+    "question": "Where can I report a broken campus computer?",
+    "answer": "Report it to the lab assistant in that lab, or to the Computer Center, Room 212 on Level 2.",
+    "category": "location",
+    "keywords": [
+      "report",
+      "broken",
+      "campu",
+      "computer"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 251,
+    "question": "Where is the electronics laboratory?",
+    "answer": "The Electronics & Telecommunication Engineering department is on Level 3. The Head of Department's office is Room ET 303. Take the lift up to Level 3; the stairs work if the lift is busy. The directory board faces you as you step out.",
+    "category": "location",
+    "keywords": [
+      "electronic",
+      "lab"
+    ],
+    "specificity": "concrete",
+    "from": "building"
+  },
+  {
+    "id": 252,
+    "question": "Where is the programming laboratory?",
+    "answer": "Programming labs are located in RAIT's computer-related laboratory facilities. Check the Computer Engineering timetable.",
+    "category": "location",
+    "keywords": [
+      "programming",
+      "lab"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 253,
+    "question": "Where is the networking laboratory?",
+    "answer": "Ask the Computer Engineering/IT department for the current networking laboratory location.",
+    "category": "location",
+    "keywords": [
+      "networking",
+      "lab"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 254,
+    "question": "Where is the robotics laboratory?",
+    "answer": "Room 411 is the Robotics Lab on Level 4, the Computer Science & Engineering floor. Take the lift up to Level 4; the stairs work if the lift is busy. The directory board faces you as you step out. 411 sits between 408 (Intel Unnati Lab) and 412A (Classroom).",
+    "category": "location",
+    "keywords": [
+      "robotic",
+      "lab"
+    ],
+    "specificity": "concrete",
+    "from": "building"
+  },
+  {
+    "id": 255,
+    "question": "Where is the AI laboratory?",
+    "answer": "The closest thing to an AI lab is the Machine Intelligence Lab, Room 202 on Level 2. Data work also happens in the Data Science Lab (513) and the Big Data Analytics Lab (508) on Level 5.",
+    "category": "location",
+    "keywords": [
+      "ai",
+      "lab"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 256,
+    "question": "Where is the mechanical workshop?",
+    "answer": "The workshop is in the basement. Take the stairs down one level from the ground-floor lobby; the canteen and the store are down there too.",
+    "category": "location",
+    "keywords": [
+      "mechanical",
+      "workshop"
+    ],
+    "specificity": "concrete",
+    "from": "building"
+  },
+  {
+    "id": 257,
+    "question": "When is the computer lab available?",
+    "answer": "The computer laboratories are available 9:00 AM to 5:30 PM on weekdays. Outside scheduled practicals you can use a free machine if the laboratory assistant signs you in.",
+    "category": "timing",
+    "keywords": [
+      "computer",
+      "lab",
+      "available"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 258,
+    "question": "Can students use the lab outside class hours?",
+    "answer": "Yes, if the lab is not booked for a practical. Ask the lab assistant on that floor to sign you in; labs run until 5:30 PM on weekdays.",
+    "category": "timing",
+    "keywords": [
+      "student",
+      "use",
+      "lab",
+      "outside",
+      "class",
+      "timing"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 259,
+    "question": "Do I need permission to use the research lab?",
+    "answer": "Yes, research facilities generally require authorization from the faculty/research supervisor or department.",
+    "category": "faculty",
+    "keywords": [
+      "need",
+      "permission",
+      "use",
+      "research",
+      "lab"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 260,
+    "question": "Who manages the electronics lab?",
+    "answer": "The boards do not name lab staff. The electronics labs are on Level 3 with E&TC, whose Head sits in Room ET 303; the staff there can tell you who manages each lab.",
+    "category": "faculty",
+    "keywords": [
+      "manage",
+      "electronic",
+      "lab"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 261,
+    "question": "Who should I contact about laboratory access?",
+    "answer": "Lab access is arranged by the lab assistant for that department, on the lab's own floor. For computer labs, ask at the lab itself: 117, 213A, 524 or 617.",
+    "category": "faculty",
+    "keywords": [
+      "contact",
+      "lab",
+      "access"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 262,
+    "question": "Where can I find the laboratory schedule?",
+    "answer": "Check your department timetable or laboratory notice board.",
+    "category": "timing",
+    "keywords": [
+      "lab",
+      "timing"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 263,
+    "question": "Which lab is used for CS101?",
+    "answer": "CS101 programming practicals use the Computer Programming Lab, Room 523 on Level 5.",
+    "category": "location",
+    "keywords": [
+      "lab",
+      "used",
+      "cs101"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 264,
+    "question": "Which lab is used for programming classes?",
+    "answer": "The assigned programming/computer laboratory is listed in the current timetable.",
+    "category": "facility",
+    "keywords": [
+      "lab",
+      "used",
+      "programming",
+      "classe"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 265,
+    "question": "Where can I find the lab safety rules?",
+    "answer": "Laboratory safety instructions are generally posted inside the laboratory; ask the lab in-charge for the official rules.",
+    "category": "location",
+    "keywords": [
+      "lab",
+      "safety",
+      "rule"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 266,
+    "question": "Is protective equipment required in the laboratory?",
+    "answer": "Requirements depend on the laboratory. Follow the posted safety rules and instructions from the lab in-charge.",
+    "category": "facility",
+    "keywords": [
+      "protective",
+      "equipment",
+      "required",
+      "lab"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 267,
+    "question": "Where can I report damaged laboratory equipment?",
+    "answer": "Immediately inform the laboratory in-charge or faculty supervising the lab.",
+    "category": "faculty",
+    "keywords": [
+      "report",
+      "damaged",
+      "lab",
+      "equipment"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 268,
+    "question": "Can students reserve laboratory equipment?",
+    "answer": "Ask the lab assistant for that department at least a day ahead; they sit with the labs on each department's floor.",
+    "category": "location",
+    "keywords": [
+      "student",
+      "reserve",
+      "lab",
+      "equipment"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 269,
+    "question": "Where is the research laboratory?",
+    "answer": "The specialist labs are spread across the building: 5G and Machine Intelligence on Level 2, Robotics and Cloud Computing on Level 4, Quantum Studio and Data Science on Level 5, and Blockchain Nexus and Cyber Security on Level 6.",
+    "category": "location",
+    "keywords": [
+      "research",
+      "lab"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 270,
+    "question": "Which building contains the research labs?",
+    "answer": "The specialist labs are spread across the building: 5G and Machine Intelligence on Level 2, Robotics and Cloud Computing on Level 4, Quantum Studio and Data Science on Level 5, and Blockchain Nexus and Cyber Security on Level 6.",
+    "category": "location",
+    "keywords": [
+      "building",
+      "contain",
+      "research",
+      "lab"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 271,
+    "question": "Where can postgraduate students conduct experiments?",
+    "answer": "Postgraduate students should use the laboratories assigned by their department and research supervisor.",
+    "category": "location",
+    "keywords": [
+      "postgraduate",
+      "student",
+      "conduct",
+      "experiment"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 272,
+    "question": "Are laboratories open during weekends?",
+    "answer": "Laboratories are closed at weekends except during project submission weeks, when the computer laboratories open on Saturday from 10:00 AM to 4:00 PM.",
+    "category": "timing",
+    "keywords": [
+      "lab",
+      "open",
+      "during",
+      "weekend"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 273,
+    "question": "What time do the laboratories close?",
+    "answer": "Laboratories close at 5:30 PM on weekdays, half an hour after the last teaching slot ends.",
+    "category": "timing",
+    "keywords": [
+      "time",
+      "lab",
+      "close"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 274,
+    "question": "Can students borrow lab equipment?",
+    "answer": "Equipment borrowing requires department authorization and follows the lab's current rules.",
+    "category": "facility",
+    "keywords": [
+      "student",
+      "borrow",
+      "lab",
+      "equipment"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 275,
+    "question": "Where can I find the laboratory supervisor?",
+    "answer": "Ask the relevant department laboratory office or the laboratory in-charge.",
+    "category": "location",
+    "keywords": [
+      "lab",
+      "supervisor"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 276,
+    "question": "Where can I find the exam timetable?",
+    "answer": "The exam timetable is posted by the Examination Section, Rooms 104 and 105 on Level 1, and on the student portal about three weeks before exams.",
+    "category": "location",
+    "keywords": [
+      "exam",
+      "timing"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 277,
+    "question": "When is the next CS101 exam?",
+    "answer": "The exact exam date depends on your semester and batch. Check the current university/RAIT examination timetable.",
+    "category": "timing",
+    "keywords": [
+      "next",
+      "cs101",
+      "exam"
+    ],
+    "specificity": "deferral"
+  },
+  {
+    "id": 278,
+    "question": "Where will my exam take place?",
+    "answer": "Your exam venue is listed on the latest examination seating arrangement or hall-ticket instructions.",
+    "category": "location",
+    "keywords": [
+      "exam",
+      "take",
+      "place"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 279,
+    "question": "Has the exam room been changed?",
+    "answer": "Check the latest examination notice and seating arrangement for any changes.",
+    "category": "location",
+    "keywords": [
+      "exam",
+      "room",
+      "changed"
+    ],
+    "specificity": "deferral"
+  },
+  {
+    "id": 280,
+    "question": "Where can I find the examination rules?",
+    "answer": "Follow the rules published by RAIT and the affiliated university examination authority.",
+    "category": "location",
+    "keywords": [
+      "examination",
+      "rule"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 281,
+    "question": "What should I bring to the exam?",
+    "answer": "Carry your required hall ticket/ID and permitted stationery. Follow the current examination instructions.",
+    "category": "academic",
+    "keywords": [
+      "bring",
+      "exam"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 282,
+    "question": "Where can I submit an assignment?",
+    "answer": "Submit assignments through the platform specified by the course instructor, such as LMS or department submission procedure.",
+    "category": "location",
+    "keywords": [
+      "submit",
+      "assignment"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 283,
+    "question": "When is the CS101 assignment due?",
+    "answer": "Check the assignment announcement from the current CS101 instructor.",
+    "category": "timing",
+    "keywords": [
+      "cs101",
+      "assignment",
+      "due"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 284,
+    "question": "Where can I find course deadlines?",
+    "answer": "Check the course LMS, syllabus, timetable, and official department notices.",
+    "category": "location",
+    "keywords": [
+      "course",
+      "deadline"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 285,
+    "question": "Who handles examination-related questions?",
+    "answer": "The Examination Section, Rooms 104 and 105 on Level 1, handles hall tickets, seating and exam queries, 10:00 AM to 5:00 PM on weekdays.",
+    "category": "faculty",
+    "keywords": [
+      "handle",
+      "examination",
+      "related",
+      "question"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 286,
+    "question": "Where can I request a revaluation?",
+    "answer": "Follow the current university/RAIT examination-section procedure for revaluation.",
+    "category": "location",
+    "keywords": [
+      "request",
+      "revaluation"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 287,
+    "question": "How do I apply for a supplementary exam?",
+    "answer": "Contact the examination section and follow the current university procedure for supplementary examinations.",
+    "category": "academic",
+    "keywords": [
+      "apply",
+      "supplementary",
+      "exam"
+    ],
+    "specificity": "deferral"
+  },
+  {
+    "id": 288,
+    "question": "Where can I find my exam results?",
+    "answer": "Results are released through the official university/RAIT result channels.",
+    "category": "location",
+    "keywords": [
+      "exam",
+      "result"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 289,
+    "question": "When will semester results be released?",
+    "answer": "Result dates depend on the examination authority. Check the latest official announcement.",
+    "category": "timing",
+    "keywords": [
+      "semester",
+      "result",
+      "released"
+    ],
+    "specificity": "deferral"
+  },
+  {
+    "id": 290,
+    "question": "Where can I get an academic transcript?",
+    "answer": "There is no separate academic office on the floor boards; that goes through the Administrative Office, Room 101 on Level 1. Level 1 is close, so the main stairs are quickest; the lift works too. The directory board faces the lifts on the landing. 101 is the first room on the board, just before 103 (Principal's Office).",
+    "category": "location",
+    "keywords": [
+      "academic",
+      "transcript"
+    ],
+    "specificity": "concrete",
+    "from": "building"
+  },
+  {
+    "id": 291,
+    "question": "How do I request an official transcript?",
+    "answer": "Use RAIT's current transcript-request procedure and submit the required documents/fees.",
+    "category": "admission",
+    "keywords": [
+      "request",
+      "official",
+      "transcript"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 292,
+    "question": "Where can I submit a course registration form?",
+    "answer": "Course registration forms go to the Administrative Office, Room 101 on Level 1.",
+    "category": "location",
+    "keywords": [
+      "submit",
+      "course",
+      "registration",
+      "form"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 293,
+    "question": "How do I change a registered course?",
+    "answer": "Contact your department academic coordinator and follow the current course-change procedure.",
+    "category": "academic",
+    "keywords": [
+      "change",
+      "registered",
+      "course"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 294,
+    "question": "Who can help me with course registration?",
+    "answer": "Your department coordinator, academic advisor, and student/academic section can assist.",
+    "category": "faculty",
+    "keywords": [
+      "help",
+      "course",
+      "registration"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 295,
+    "question": "Where can I find the academic calendar?",
+    "answer": "The academic calendar is on the student portal, and the Administrative Office in Room 101 on Level 1 has a printed copy.",
+    "category": "location",
+    "keywords": [
+      "academic",
+      "calendar"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 296,
+    "question": "When does the semester end?",
+    "answer": "The odd semester ends in the third week of November and the even semester in the third week of April. Examination dates are announced separately by the examination section.",
+    "category": "timing",
+    "keywords": [
+      "semester",
+      "end"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 297,
+    "question": "When does the next semester begin?",
+    "answer": "The odd semester begins in the third week of July and the even semester in the second week of December. Exact reporting dates are published on the student portal.",
+    "category": "timing",
+    "keywords": [
+      "next",
+      "semester",
+      "begin"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 298,
+    "question": "When are the semester holidays?",
+    "answer": "Holiday dates are published in the current academic calendar.",
+    "category": "timing",
+    "keywords": [
+      "semester",
+      "holiday"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 299,
+    "question": "Where can I find important academic deadlines?",
+    "answer": "Assignment, project and form-submission deadlines are posted on your department notice board and on the student portal under Academics.",
+    "category": "location",
+    "keywords": [
+      "important",
+      "academic",
+      "deadline"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 300,
+    "question": "Who should I contact if my grade is missing?",
+    "answer": "Report it to the Examination Section, Rooms 104 and 105 on Level 1, within two weeks of results being published. Bring your hall ticket and ID card.",
+    "category": "faculty",
+    "keywords": [
+      "contact",
+      "grade",
+      "missing"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 301,
+    "question": "Where is the student activity center?",
+    "answer": "The boards do not list a student activity centre. Events are usually held in the seminar halls (206, 301 and 302) or the auditoriums on Level 6 (611 and 615).",
+    "category": "location",
+    "keywords": [
+      "student",
+      "activity",
+      "center"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 302,
+    "question": "What student clubs are available?",
+    "answer": "RAIT has technical clubs run by the departments, along with cultural, sports and hobby clubs. Sign-ups are announced on the student portal and on the lobby screens at the start of the odd semester.",
+    "category": "facility",
+    "keywords": [
+      "student",
+      "club",
+      "available"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 303,
+    "question": "Is there a computer science club?",
+    "answer": "Yes. The computer departments on Levels 4 and 5 run technical clubs and coding activities; ask at the faculty room on your floor, 402 or 502, for this year's contacts.",
+    "category": "faculty",
+    "keywords": [
+      "computer",
+      "club"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 304,
+    "question": "Is there a robotics club?",
+    "answer": "Yes. Robotics activities centre on the Robotics Lab, Room 411 on Level 4.",
+    "category": "location",
+    "keywords": [
+      "robotic",
+      "club"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 305,
+    "question": "Is there a coding club?",
+    "answer": "Yes. Coding sessions run in the computer labs, such as the Computer Programming Lab, Room 523 on Level 5. Watch the student portal for dates.",
+    "category": "location",
+    "keywords": [
+      "coding",
+      "club"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 306,
+    "question": "Is there a photography club?",
+    "answer": "There is a photography club among the hobby clubs; its sign-ups are announced on the student portal at the start of the odd semester.",
+    "category": "academic",
+    "keywords": [
+      "photography",
+      "club"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 307,
+    "question": "Is there a music club?",
+    "answer": "Yes. The music club performs at events in the auditoriums on Level 6, Rooms 611 and 615. Watch the student portal for auditions.",
+    "category": "general",
+    "keywords": [
+      "music",
+      "club"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 308,
+    "question": "Is there a debate club?",
+    "answer": "Yes. Debating and literary events are held in the seminar halls, Rooms 206, 301 and 302.",
+    "category": "general",
+    "keywords": [
+      "debate",
+      "club"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 309,
+    "question": "How do I join a student club?",
+    "answer": "Follow the club's current registration or recruitment announcement.",
+    "category": "general",
+    "keywords": [
+      "join",
+      "student",
+      "club"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 310,
+    "question": "Where can I register for student activities?",
+    "answer": "Use the registration method specified by the relevant student organization or student-affairs office.",
+    "category": "location",
+    "keywords": [
+      "register",
+      "student",
+      "activitie"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 311,
+    "question": "When is the next club orientation?",
+    "answer": "Club orientation happens early in the odd semester, usually in an auditorium on Level 6 (611 or 615). Dates go up on the student portal.",
+    "category": "timing",
+    "keywords": [
+      "next",
+      "club",
+      "orientation"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 312,
+    "question": "Where do student clubs hold meetings?",
+    "answer": "Meeting rooms vary by club and event. Check the club announcement for the assigned location.",
+    "category": "location",
+    "keywords": [
+      "student",
+      "club",
+      "hold",
+      "meeting"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 313,
+    "question": "Which clubs are recruiting new members?",
+    "answer": "Most clubs recruit in the first three weeks of the odd semester; sign-ups are announced on the student portal and the lobby screens.",
+    "category": "academic",
+    "keywords": [
+      "club",
+      "recruiting",
+      "new",
+      "member"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 314,
+    "question": "Who manages student organizations?",
+    "answer": "Student organizations are generally coordinated through student-affairs/cultural/technical committees and faculty coordinators.",
+    "category": "faculty",
+    "keywords": [
+      "manage",
+      "student",
+      "organization"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 315,
+    "question": "Where can I find the student activities calendar?",
+    "answer": "The student activities calendar is on the student portal under Student Life.",
+    "category": "location",
+    "keywords": [
+      "student",
+      "activitie",
+      "calendar"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 316,
+    "question": "Are first-year students allowed to join clubs?",
+    "answer": "First-year students can generally participate in student activities subject to each club's rules and registration process.",
+    "category": "academic",
+    "keywords": [
+      "first",
+      "year",
+      "student",
+      "allowed",
+      "join",
+      "club"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 317,
+    "question": "Can I join more than one club?",
+    "answer": "Yes, you can join more than one club. Most students join two, since meeting times are spread across the week to avoid clashes.",
+    "category": "general",
+    "keywords": [
+      "join",
+      "more",
+      "one",
+      "club"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 318,
+    "question": "Where can I reserve a room for a club meeting?",
+    "answer": "Ask student affairs or the relevant faculty coordinator about room reservation.",
+    "category": "faculty",
+    "keywords": [
+      "reserve",
+      "room",
+      "club",
+      "meeting"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 319,
+    "question": "Where can I find information about campus competitions?",
+    "answer": "Technical and cultural competitions are announced on the student portal, on the lobby screens and through your department's faculty room.",
+    "category": "faculty",
+    "keywords": [
+      "information",
+      "campu",
+      "competition"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 320,
+    "question": "Are there student volunteering opportunities?",
+    "answer": "Check student-activity and social-outreach announcements for current volunteering opportunities.",
+    "category": "general",
+    "keywords": [
+      "student",
+      "volunteering",
+      "opportunitie"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 321,
+    "question": "Where can I register for campus events?",
+    "answer": "Use the registration link or process published in the official event announcement.",
+    "category": "location",
+    "keywords": [
+      "register",
+      "campu",
+      "event"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 322,
+    "question": "Where are student organization offices?",
+    "answer": "Ask student affairs or the relevant club coordinator for current office locations.",
+    "category": "location",
+    "keywords": [
+      "student",
+      "organization",
+      "office"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 323,
+    "question": "Who can help me start a new student club?",
+    "answer": "Contact student affairs and the relevant faculty coordinator to understand the current approval process.",
+    "category": "faculty",
+    "keywords": [
+      "help",
+      "start",
+      "new",
+      "student",
+      "club"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 324,
+    "question": "Are there cultural events this week?",
+    "answer": "Cultural events are announced on the student portal; most are held in the auditoriums on Level 6 (611 and 615) or the seminar halls (206, 301 and 302).",
+    "category": "general",
+    "keywords": [
+      "cultural",
+      "event",
+      "week"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 325,
+    "question": "Where can I find announcements about student activities?",
+    "answer": "Student activity announcements go up on the student portal and on the screens in each floor's lift lobby.",
+    "category": "location",
+    "keywords": [
+      "announcement",
+      "student",
+      "activitie"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 326,
+    "question": "Where is the first-year student hostel?",
+    "answer": "Hostel arrangements are managed separately from academic facilities. Ask the hostel/admissions office for the assigned hostel location.",
+    "category": "location",
+    "keywords": [
+      "first",
+      "year",
+      "student",
+      "hostel"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 327,
+    "question": "How do I get to the women's hostel?",
+    "answer": "Use the hostel information provided during admission or ask the hostel administration/security desk.",
+    "category": "hostel",
+    "keywords": [
+      "women",
+      "s",
+      "hostel"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 328,
+    "question": "How do I get to the men's hostel?",
+    "answer": "Ask hostel administration or campus security for directions to the assigned men's hostel.",
+    "category": "location",
+    "keywords": [
+      "men",
+      "s",
+      "hostel"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 329,
+    "question": "Where is the hostel office?",
+    "answer": "The hostel is not part of the main building, so it is not on the floor boards. The hostel office is at the hostel itself; the Administrative Office, Room 101 on Level 1, can give you the details.",
+    "category": "location",
+    "keywords": [
+      "hostel",
+      "office"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 330,
+    "question": "Who is the hostel warden?",
+    "answer": "The hostel is not on the main building's floor boards. Ask at the hostel office, or at the Administrative Office in Room 101 on Level 1, for the warden's contact.",
+    "category": "faculty",
+    "keywords": [
+      "hostel",
+      "warden"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 331,
+    "question": "What are the hostel check-in timings?",
+    "answer": "Hostel check-in runs from 9:00 AM to 6:00 PM on working days at the hostel office. Bring your allotment letter and ID card.",
+    "category": "timing",
+    "keywords": [
+      "hostel",
+      "check",
+      "timing"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 332,
+    "question": "Where can I report a hostel maintenance issue?",
+    "answer": "Report it to the hostel office, warden, or designated maintenance desk.",
+    "category": "location",
+    "keywords": [
+      "report",
+      "hostel",
+      "maintenance",
+      "issue"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 333,
+    "question": "Where is the hostel dining hall?",
+    "answer": "Ask the hostel office for the dining-hall location in your assigned hostel.",
+    "category": "location",
+    "keywords": [
+      "hostel",
+      "cafeteria",
+      "hall"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 334,
+    "question": "What time does the hostel dining hall open?",
+    "answer": "The hostel dining hall serves breakfast 7:30 AM to 9:30 AM, lunch 12:30 PM to 2:30 PM, and dinner 7:30 PM to 9:30 PM, every day including Sunday.",
+    "category": "timing",
+    "keywords": [
+      "time",
+      "hostel",
+      "cafeteria",
+      "hall",
+      "open"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 336,
+    "question": "Where are the hostel study rooms?",
+    "answer": "Ask at the hostel office. In the main building, the Library & Information Centre in Room 312 on Level 3 is the quiet place to study.",
+    "category": "location",
+    "keywords": [
+      "hostel",
+      "study",
+      "room"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 337,
+    "question": "Where is the hostel laundry facility?",
+    "answer": "Ask hostel administration for the current laundry-facility location and rules.",
+    "category": "location",
+    "keywords": [
+      "hostel",
+      "laundry",
+      "facility"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 338,
+    "question": "Where can I find the hostel common room?",
+    "answer": "The hostel office will point you to it. In the main building, the Girls' Common Room is Room 608 on Level 6.",
+    "category": "location",
+    "keywords": [
+      "hostel",
+      "common",
+      "room"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 339,
+    "question": "What are the hostel visitor timings?",
+    "answer": "Hostel visiting hours are 4:00 PM to 7:00 PM on weekdays and 10:00 AM to 7:00 PM at weekends; visitors sign in at the hostel office.",
+    "category": "timing",
+    "keywords": [
+      "hostel",
+      "visitor",
+      "timing"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 340,
+    "question": "Where can hostel residents collect mail?",
+    "answer": "Hostel residents collect mail from the hostel office.",
+    "category": "location",
+    "keywords": [
+      "hostel",
+      "resident",
+      "collect",
+      "mail"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 341,
+    "question": "Where is the nearest medical facility to the hostel?",
+    "answer": "Ask the hostel warden/security for the nearest currently operating medical facility.",
+    "category": "location",
+    "keywords": [
+      "nearest",
+      "medical",
+      "facility",
+      "hostel"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 342,
+    "question": "How do I report a lost hostel key?",
+    "answer": "Immediately inform the hostel office or warden and follow the key-replacement procedure.",
+    "category": "hostel",
+    "keywords": [
+      "report",
+      "lost",
+      "hostel",
+      "key"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 343,
+    "question": "Where can I request a room change?",
+    "answer": "Submit a room-change request through the hostel office according to current hostel rules.",
+    "category": "location",
+    "keywords": [
+      "request",
+      "room",
+      "change"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 344,
+    "question": "Who should I contact about hostel accommodation?",
+    "answer": "Hostel accommodation is handled by the hostel office and the Administrative Office, Room 101 on Level 1.",
+    "category": "faculty",
+    "keywords": [
+      "contact",
+      "hostel",
+      "accommodation"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 345,
+    "question": "Where can I find hostel rules?",
+    "answer": "Refer to the hostel handbook or current hostel notice issued to residents.",
+    "category": "location",
+    "keywords": [
+      "hostel",
+      "rule"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 346,
+    "question": "Are there guest rooms on campus?",
+    "answer": "The main building has no guest rooms. Ask the hostel office about rooms for visiting parents.",
+    "category": "location",
+    "keywords": [
+      "guest",
+      "room",
+      "campu"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 347,
+    "question": "Where can parents wait when visiting the hostel?",
+    "answer": "Visitors should follow hostel visitor rules and use the designated waiting area.",
+    "category": "timing",
+    "keywords": [
+      "parent",
+      "wait",
+      "visiting",
+      "hostel"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 348,
+    "question": "Is there a shuttle between hostels and academic buildings?",
+    "answer": "Confirm current transport routes with hostel or campus transport administration.",
+    "category": "hostel",
+    "keywords": [
+      "shuttle",
+      "between",
+      "hostel",
+      "academic",
+      "building"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 349,
+    "question": "Where is the nearest cafeteria to the hostel?",
+    "answer": "In the main building, the canteen is in the basement. Hostel residents also have the hostel mess.",
+    "category": "location",
+    "keywords": [
+      "nearest",
+      "cafeteria",
+      "hostel"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 350,
+    "question": "Where can I find emergency contacts for hostel residents?",
+    "answer": "Emergency contacts are posted at the hostel office. In any emergency, call 112 and alert security at the main gate.",
+    "category": "location",
+    "keywords": [
+      "emergency",
+      "contact",
+      "hostel",
+      "resident"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 351,
+    "question": "Where is the nearest accessible entrance?",
+    "answer": "Ask campus security for the accessible entrance to your specific destination.",
+    "category": "location",
+    "keywords": [
+      "nearest",
+      "accessible",
+      "entrance"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 352,
+    "question": "Which buildings have elevators?",
+    "answer": "The main building has lifts serving every level from the basement to Level 6. In a fire, use the stairs, not the lifts.",
+    "category": "location",
+    "keywords": [
+      "building",
+      "elevator"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 353,
+    "question": "Where are the wheelchair ramps?",
+    "answer": "Security at the main gate can guide you to the step-free entrance; inside, the lifts reach every level from the basement to Level 6.",
+    "category": "location",
+    "keywords": [
+      "wheelchair",
+      "ramp"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 354,
+    "question": "Which restrooms are accessible?",
+    "answer": "Ask administration or security for the nearest accessible restroom.",
+    "category": "general",
+    "keywords": [
+      "washroom",
+      "accessible"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 355,
+    "question": "Where can I find accessible parking?",
+    "answer": "Ask security at the main gate; they will direct you to the nearest accessible parking for the main building.",
+    "category": "location",
+    "keywords": [
+      "accessible",
+      "parking"
+    ],
+    "specificity": "deferral"
+  },
+  {
+    "id": 356,
+    "question": "Who should I contact for accessibility assistance?",
+    "answer": "Contact RAIT administration/student support and inform security if immediate assistance is required.",
+    "category": "faculty",
+    "keywords": [
+      "contact",
+      "accessibility",
+      "assistance"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 357,
+    "question": "Is there an accessibility office?",
+    "answer": "Ask RAIT administration for the current accessibility/support contact.",
+    "category": "general",
+    "keywords": [
+      "accessibility",
+      "office"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 358,
+    "question": "Where is the campus security office?",
+    "answer": "Ask at the main gate/security desk for the current security-office location.",
+    "category": "location",
+    "keywords": [
+      "campu",
+      "security",
+      "office"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 359,
+    "question": "What is the campus emergency number?",
+    "answer": "Use the emergency numbers displayed on official RAIT campus notices and contact campus security immediately for a campus emergency.",
+    "category": "general",
+    "keywords": [
+      "campu",
+      "emergency",
+      "number"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 360,
+    "question": "Where is the nearest first-aid station?",
+    "answer": "For first aid, go to the Administrative Office in Room 101 on Level 1 or to security at the main gate. In an emergency, call 112.",
+    "category": "location",
+    "keywords": [
+      "nearest",
+      "first",
+      "aid",
+      "station"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 361,
+    "question": "Where is the campus health center?",
+    "answer": "The floor boards do not show a medical room. For first aid, ask at the Administrative Office in Room 101 on Level 1 or at security at the main gate, and in an emergency call 112.",
+    "category": "location",
+    "keywords": [
+      "campu",
+      "health",
+      "center"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 362,
+    "question": "What should I do if I lose my student ID?",
+    "answer": "Report it to the Administrative Office, Room 101 on Level 1, and apply for a replacement there. ID cards are compulsory on campus, so do it straight away.",
+    "category": "location",
+    "keywords": [
+      "lose",
+      "student",
+      "id"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 363,
+    "question": "Where can I report a security concern?",
+    "answer": "Report it immediately to campus security or the administration.",
+    "category": "location",
+    "keywords": [
+      "report",
+      "security",
+      "concern"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 364,
+    "question": "Where can I report a suspicious item?",
+    "answer": "Do not touch it. Move away and immediately inform campus security.",
+    "category": "location",
+    "keywords": [
+      "report",
+      "suspiciou",
+      "item"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 365,
+    "question": "Where are the emergency exits?",
+    "answer": "Follow the emergency-exit signs posted inside each building.",
+    "category": "location",
+    "keywords": [
+      "emergency",
+      "exit"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 366,
+    "question": "Where are the fire extinguishers in this building?",
+    "answer": "Fire extinguishers are mounted near the stairs and the lift lobby on each floor. In a fire, use the stairs, not the lifts, and call 112.",
+    "category": "location",
+    "keywords": [
+      "fire",
+      "extinguisher",
+      "building"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 367,
+    "question": "Where is the emergency assembly point?",
+    "answer": "Follow the building evacuation instructions and posted assembly-point signs.",
+    "category": "location",
+    "keywords": [
+      "emergency",
+      "assembly",
+      "point"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 368,
+    "question": "Where can I find campus safety guidelines?",
+    "answer": "The key rules are on signs across the building: in a fire use the stairs, not the lifts; wear your ID card at all times; and headphones and earphones are not allowed on the premises.",
+    "category": "location",
+    "keywords": [
+      "campu",
+      "safety",
+      "guideline"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 369,
+    "question": "Who should I contact after campus hours?",
+    "answer": "Contact campus security for urgent after-hours assistance.",
+    "category": "timing",
+    "keywords": [
+      "contact",
+      "after",
+      "campu",
+      "timing"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 370,
+    "question": "Where is the nearest security desk?",
+    "answer": "The nearest security point can be found at the building entrance or main campus gate.",
+    "category": "location",
+    "keywords": [
+      "nearest",
+      "security",
+      "desk"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 371,
+    "question": "How do I report a maintenance emergency?",
+    "answer": "Immediately inform security, administration, or the designated maintenance team.",
+    "category": "general",
+    "keywords": [
+      "report",
+      "maintenance",
+      "emergency"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 372,
+    "question": "What should I do if I get locked out of a building?",
+    "answer": "Do not force entry. Contact security at the main gate, or the staff in the faculty room on that floor.",
+    "category": "faculty",
+    "keywords": [
+      "locked",
+      "out",
+      "building"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 373,
+    "question": "Who can help me if I am lost after dark?",
+    "answer": "Contact campus security and ask for assistance reaching your destination safely.",
+    "category": "faculty",
+    "keywords": [
+      "help",
+      "lost",
+      "after",
+      "dark"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 374,
+    "question": "Where can I find emergency evacuation information?",
+    "answer": "Follow the emergency maps and evacuation instructions posted in each RAIT building.",
+    "category": "location",
+    "keywords": [
+      "emergency",
+      "evacuation",
+      "information"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 375,
+    "question": "Is there a campus escort service?",
+    "answer": "Ask campus security whether an escort service is currently available.",
+    "category": "general",
+    "keywords": [
+      "campu",
+      "escort",
+      "service"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 376,
+    "question": "Where do new students register?",
+    "answer": "New-student registration is handled according to the admission/orientation instructions issued by RAIT.",
+    "category": "location",
+    "keywords": [
+      "new",
+      "student",
+      "register"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 377,
+    "question": "Where is the orientation program?",
+    "answer": "Orientation is held in an auditorium on Level 6, Room 611 or 615; your admission email says which.",
+    "category": "location",
+    "keywords": [
+      "orientation",
+      "program"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 378,
+    "question": "What time does orientation begin?",
+    "answer": "Orientation begins at 9:30 AM. Report by 9:00 AM with your admission letter and take the lift up to Level 6.",
+    "category": "timing",
+    "keywords": [
+      "time",
+      "orientation",
+      "begin"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 379,
+    "question": "Where can I collect my student ID?",
+    "answer": "Student ID cards are issued by the Administrative Office, Room 101 on Level 1, during orientation week.",
+    "category": "location",
+    "keywords": [
+      "collect",
+      "student",
+      "id"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 380,
+    "question": "Where can I collect my welcome materials?",
+    "answer": "Welcome materials are distributed according to the current orientation/admission process.",
+    "category": "location",
+    "keywords": [
+      "collect",
+      "welcome",
+      "material"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 381,
+    "question": "Where can I find the first-year student help desk?",
+    "answer": "First-year queries go to the Engineering Sciences department on the ground floor, whose Head sits in Room 001; admin queries go to Room 101 on Level 1.",
+    "category": "location",
+    "keywords": [
+      "first",
+      "year",
+      "student",
+      "help",
+      "desk"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 382,
+    "question": "Who is my first-year academic advisor?",
+    "answer": "Your advisor is assigned by your department/class. Check your batch notice or ask the class coordinator.",
+    "category": "faculty",
+    "keywords": [
+      "first",
+      "year",
+      "academic",
+      "advisor"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 383,
+    "question": "Where can I find the orientation timetable?",
+    "answer": "The orientation timetable is handed out at registration and posted by the Engineering Sciences department on the ground floor.",
+    "category": "location",
+    "keywords": [
+      "orientation",
+      "timing"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 384,
+    "question": "Are parents allowed to attend orientation?",
+    "answer": "Follow the attendance instructions in the official orientation notice.",
+    "category": "academic",
+    "keywords": [
+      "parent",
+      "allowed",
+      "attend",
+      "orientation"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 385,
+    "question": "Where should new students report on their first day?",
+    "answer": "Follow the reporting location specified in your admission/orientation instructions.",
+    "category": "location",
+    "keywords": [
+      "new",
+      "student",
+      "report",
+      "first",
+      "day"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 386,
+    "question": "Where can I get help understanding my timetable?",
+    "answer": "Ask at the faculty room on your department's floor. First-years should go to the Engineering Sciences department on the ground floor, whose Head sits in Room 001.",
+    "category": "faculty",
+    "keywords": [
+      "help",
+      "understanding",
+      "timing"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 387,
+    "question": "How do I find my assigned classroom?",
+    "answer": "Your classroom is on your division's timetable. The first digit of the room number is the floor: 402 is on Level 4, 004 on the ground floor. Ask me any room number for directions.",
+    "category": "location",
+    "keywords": [
+      "assigned",
+      "classroom"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 388,
+    "question": "Where can I get a campus map?",
+    "answer": "Each floor's directory board, facing the lifts, is the map for that level. I have all of them, from the basement to Level 6, so ask me for any room.",
+    "category": "location",
+    "keywords": [
+      "campu",
+      "map"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 389,
+    "question": "How do I activate my student account?",
+    "answer": "Account activation is explained during orientation. If it does not work, go to the Computer Center, Room 212 on Level 2, with your ID card.",
+    "category": "location",
+    "keywords": [
+      "activate",
+      "student",
+      "account"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 390,
+    "question": "Where can I get my university email address?",
+    "answer": "Your institute email is issued during orientation. For login problems, go to the Computer Center, Room 212 on Level 2.",
+    "category": "location",
+    "keywords": [
+      "university",
+      "email",
+      "address"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 392,
+    "question": "Where can I register for courses?",
+    "answer": "Use the official course-registration system or contact your department academic coordinator.",
+    "category": "location",
+    "keywords": [
+      "register",
+      "course"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 393,
+    "question": "Who can help me choose my courses?",
+    "answer": "Your academic advisor and department coordinator can help with course selection.",
+    "category": "faculty",
+    "keywords": [
+      "help",
+      "choose",
+      "course"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 394,
+    "question": "Where can I ask questions about my degree program?",
+    "answer": "Questions about your programme go to your department's floor: the faculty room first, then the Head of Department's office. Ask me for your department and I will give you both.",
+    "category": "faculty",
+    "keywords": [
+      "ask",
+      "question",
+      "degree",
+      "program"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 395,
+    "question": "Where can I find information for international students?",
+    "answer": "International-student queries go to the Administrative Office, Room 101 on Level 1.",
+    "category": "location",
+    "keywords": [
+      "information",
+      "international",
+      "student"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 396,
+    "question": "Where can new students get campus tours?",
+    "answer": "Check orientation activities or ask student affairs whether campus tours are currently scheduled.",
+    "category": "location",
+    "keywords": [
+      "new",
+      "student",
+      "campu",
+      "tour"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 397,
+    "question": "When is the next campus tour?",
+    "answer": "Campus tours run during orientation week, starting from the ground-floor lobby of the main building.",
+    "category": "timing",
+    "keywords": [
+      "next",
+      "campu",
+      "tour"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 398,
+    "question": "Where can I meet other first-year students?",
+    "answer": "Orientation programs, student clubs, department activities, and campus events are useful places to meet first-year students.",
+    "category": "location",
+    "keywords": [
+      "meet",
+      "other",
+      "first",
+      "year",
+      "student"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 399,
+    "question": "Where can I find orientation volunteers?",
+    "answer": "Orientation volunteers are stationed at the main gate and in the ground-floor lobby during orientation week.",
+    "category": "location",
+    "keywords": [
+      "orientation",
+      "volunteer"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 400,
+    "question": "Who should I contact if I have a problem during my first week?",
+    "answer": "Start at your department's faculty room. First-years should go to the Engineering Sciences department on the ground floor, Room 001; for anything urgent, contact security at the main gate.",
+    "category": "faculty",
+    "keywords": [
+      "contact",
+      "problem",
+      "during",
+      "first",
+      "week"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 401,
+    "question": "What are the hostel mess timings?",
+    "answer": "The hostel mess serves breakfast 7:30 AM to 9:30 AM, lunch 12:30 PM to 2:30 PM, and dinner 7:30 PM to 9:30 PM, every day including Sunday.",
+    "category": "timing",
+    "keywords": [
+      "hostel",
+      "mess",
+      "timing"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 402,
+    "question": "Where is the gym?",
+    "answer": "The main building's floor boards do not list a gym. Ask security at the main gate for directions to the sports facilities.",
+    "category": "location",
+    "keywords": [
+      "gym"
+    ],
+    "specificity": "deferral"
+  },
+  {
+    "id": 403,
+    "question": "What are the campus timings?",
+    "answer": "The campus is open 7:00 AM to 8:00 PM, Monday to Saturday. Teaching runs 9:00 AM to 5:00 PM with a lunch break from 1:00 PM to 2:00 PM.",
+    "category": "timing",
+    "keywords": [
+      "campu",
+      "timing"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 404,
+    "question": "Where is the computer engineering department?",
+    "answer": "The Computer Engineering department is on Level 5. The Head of Department, Amarsinh Vidhate Sir, sits in Room 503, and the faculty room is 502. Take the lift up to Level 5; the stairs work if the lift is busy. The directory board faces you as you step out.",
+    "category": "location",
+    "keywords": [
+      "computer",
+      "engineering",
+      "department"
+    ],
+    "specificity": "concrete",
+    "from": "building"
+  },
+  {
+    "id": 405,
+    "question": "What time do classes start?",
+    "answer": "The first lecture starts at 9:00 AM. The teaching day runs to 5:00 PM with a lunch break between 1:00 PM and 2:00 PM.",
+    "category": "timing",
+    "keywords": [
+      "time",
+      "classe",
+      "start"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 406,
+    "question": "Where do I collect my student ID card?",
+    "answer": "There is no separate id card office on the floor boards; that goes through the Administrative Office, Room 101 on Level 1. Level 1 is close, so the main stairs are quickest; the lift works too. The directory board faces the lifts on the landing. 101 is the first room on the board, just before 103 (Principal's Office).",
+    "category": "location",
+    "keywords": [
+      "collect",
+      "student",
+      "id",
+      "card"
+    ],
+    "specificity": "concrete",
+    "from": "building"
+  },
+  {
+    "id": 407,
+    "question": "Can I use headphones on campus?",
+    "answer": "No. Headphones and earphones are prohibited within the college premises, and devices seen in use are confiscated.",
+    "category": "general",
+    "keywords": [
+      "use",
+      "headphone",
+      "campu"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 408,
+    "question": "Are earphones allowed in college?",
+    "answer": "No. Earphones and headphones are prohibited within the college premises, and devices seen in use are confiscated.",
+    "category": "general",
+    "keywords": [
+      "earphone",
+      "allowed",
+      "college"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 409,
+    "question": "Is the ID card compulsory?",
+    "answer": "Yes. Students must wear their ID card at all times on campus; the lobby screens remind everyone of it.",
+    "category": "general",
+    "keywords": [
+      "id",
+      "card",
+      "compulsory"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 410,
+    "question": "What should I do in case of fire?",
+    "answer": "Use the stairs, not the lifts; the signs on every floor say so. Call 112 and alert security at the main gate.",
+    "category": "location",
+    "keywords": [
+      "case",
+      "fire"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 411,
+    "question": "What are the canteen timings?",
+    "answer": "The canteen in the basement is open 8:00 AM to 6:00 PM, Monday to Saturday, and closed on Sunday.",
+    "category": "timing",
+    "keywords": [
+      "cafeteria",
+      "timing"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 412,
+    "question": "Is single-use plastic allowed on campus?",
+    "answer": "RAIT is a green campus and discourages single-use plastic, so bring a reusable bottle and bag.",
+    "category": "general",
+    "keywords": [
+      "single",
+      "use",
+      "plastic",
+      "allowed",
+      "campu"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 413,
+    "question": "How many floors does the building have?",
+    "answer": "The main building has a basement, a ground floor (Level 0) and six upper levels, up to Level 6. Every level has a directory board facing the lifts.",
+    "category": "location",
+    "keywords": [
+      "many",
+      "floor",
+      "building"
+    ],
+    "specificity": "concrete"
+  },
+  {
+    "id": 414,
+    "question": "How are rooms numbered?",
+    "answer": "The first digit of a room number is its floor: 002 is on the ground floor, 402 on Level 4 and 612A on Level 6. Rooms on the E&TC floor carry an ET prefix, such as ET 303.",
+    "category": "location",
+    "keywords": [
+      "room",
+      "numbered"
+    ],
+    "specificity": "concrete"
+  }
+]

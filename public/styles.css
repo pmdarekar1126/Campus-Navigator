@@ -1,0 +1,691 @@
+/* Light is the base. Dark is applied either because the operating system asks
+   for it and the reader has not overridden that, or because they explicitly
+   chose it. The two dark blocks are deliberate duplicates: CSS has no way to
+   reuse one declaration list across two selectors without a preprocessor. */
+:root {
+  color-scheme: light;
+  --crimson: #9F1C33;
+  --crimson-deep: #7A1527;
+  --crimson-wash: #EFE0E3;
+  --paper: #FBF3F3;
+  --blush: #F3E6E8;
+  --surface: #FFFFFF;
+  --ink: #2A1E21;
+  --muted: #7C6469;
+  --line: #E4CFD3;
+  --line-soft: #F0E4E6;
+  --radius: 12px;
+  --font-display: 'Fraunces', Georgia, 'Times New Roman', serif;
+  --font-ui: 'Public Sans', 'Segoe UI', Helvetica, Arial, sans-serif;
+  --sidebar-width: 236px;
+  --column: 720px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    color-scheme: dark;
+    --crimson: #C94A63;
+    --crimson-deep: #E0748A;
+    --crimson-wash: #3A2126;
+    --paper: #1A1416;
+    --blush: #241A1D;
+    --surface: #221A1C;
+    --ink: #F2E8EA;
+    --muted: #B09197;
+    --line: #3A2A2E;
+    --line-soft: #2E2125;
+  }
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --crimson: #C94A63;
+  --crimson-deep: #E0748A;
+  --crimson-wash: #3A2126;
+  --paper: #1A1416;
+  --blush: #241A1D;
+  --surface: #221A1C;
+  --ink: #F2E8EA;
+  --muted: #B09197;
+  --line: #3A2A2E;
+  --line-soft: #2E2125;
+}
+
+* { box-sizing: border-box; }
+
+html, body { height: 100%; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-ui);
+  font-size: 15px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+.sr-only {
+  position: absolute; width: 1px; height: 1px;
+  padding: 0; margin: -1px; overflow: hidden;
+  clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--crimson);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* ---------- shell ---------- */
+
+.shell {
+  display: grid;
+  grid-template-columns: var(--sidebar-width) minmax(0, 1fr);
+  height: 100dvh;
+}
+
+.scrim {
+  position: fixed;
+  inset: 0;
+  background: rgba(42, 30, 33, 0.45);
+  z-index: 40;
+}
+
+/* ---------- sidebar ---------- */
+
+.sidebar {
+  background: var(--blush);
+  border-right: 1px solid var(--line);
+  padding: 20px 14px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  min-height: 0;
+  z-index: 50;
+}
+
+.brand {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 0 2px;
+}
+
+/* The institutional mark is a white-background raster, so it sits on its own
+   light plate rather than directly on the sidebar. That keeps the crest's real
+   colours correct in dark mode, where inverting it would wreck them. */
+.brand-logo {
+  display: block;
+  width: 100%;
+  max-width: 168px;
+  height: auto;
+  background: #fff;
+  padding: 7px 9px;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+}
+
+.brand-name {
+  padding-left: 2px;
+  font-family: var(--font-display);
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  color: var(--crimson-deep);
+}
+
+.new-chat {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 9px 12px;
+  background: transparent;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  color: var(--crimson-deep);
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 120ms ease, border-color 120ms ease;
+}
+
+.new-chat:hover { background: var(--crimson-wash); border-color: var(--crimson); }
+
+.new-chat-icon { flex-shrink: 0; }
+
+/* Browser surfaces carry the palette too. */
+::selection { background: var(--crimson-wash); color: var(--ink); }
+textarea, input { caret-color: var(--crimson); }
+* { scrollbar-color: var(--line) transparent; scrollbar-width: thin; }
+
+.sidebar-heading {
+  margin: 6px 4px 0;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.history {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.history-item {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  border-radius: 7px;
+  transition: background 120ms ease;
+}
+
+.history-item:hover { background: var(--crimson-wash); }
+
+.history-open {
+  flex: 1;
+  min-width: 0;
+  text-align: left;
+  padding: 7px 10px;
+  border: 0;
+  border-radius: 7px;
+  background: transparent;
+  color: var(--muted);
+  font-family: inherit;
+  font-size: 13.5px;
+  line-height: 1.4;
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  transition: color 120ms ease;
+}
+
+.history-item:hover .history-open { color: var(--ink); }
+
+.history-open[aria-current='true'] {
+  color: var(--crimson-deep);
+  font-weight: 500;
+}
+
+.history-item:has(.history-open[aria-current='true']) { background: var(--crimson-wash); }
+
+.history-delete {
+  flex-shrink: 0;
+  margin-right: 4px;
+  padding: 2px 6px;
+  border: 0;
+  border-radius: 5px;
+  background: transparent;
+  color: var(--muted);
+  font-family: inherit;
+  font-size: 15px;
+  line-height: 1.2;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 120ms ease, background 120ms ease, color 120ms ease;
+}
+
+.history-item:hover .history-delete,
+.history-delete:focus-visible,
+.history-delete.is-confirming { opacity: 1; }
+
+.history-delete:hover { background: var(--crimson); color: #fff; }
+
+.history-delete.is-confirming {
+  font-size: 11.5px;
+  padding: 3px 8px;
+  background: var(--crimson);
+  color: #fff;
+}
+
+/* ---------- main ---------- */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  min-height: 0;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 13px 22px;
+  border-bottom: 1px solid var(--line);
+  background: var(--paper);
+}
+
+.topbar-title {
+  flex: 1;
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: -0.005em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  gap: 4px;
+  width: 34px; height: 34px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: transparent;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.menu-bar { display: block; width: 15px; height: 1.5px; background: var(--ink); border-radius: 2px; }
+
+.theme-toggle {
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  width: 34px; height: 34px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  transition: color 120ms ease, border-color 120ms ease, background 120ms ease;
+}
+
+.theme-toggle:hover {
+  color: var(--crimson-deep);
+  border-color: var(--crimson);
+  background: var(--crimson-wash);
+}
+
+.theme-toggle .icon-sun { display: none; }
+.theme-toggle .icon-moon { display: block; }
+
+:root[data-theme='dark'] .theme-toggle .icon-sun { display: block; }
+:root[data-theme='dark'] .theme-toggle .icon-moon { display: none; }
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) .theme-toggle .icon-sun { display: block; }
+  :root:not([data-theme='light']) .theme-toggle .icon-moon { display: none; }
+}
+
+/* ---------- conversation ---------- */
+
+.conversation { flex: 1; overflow-y: auto; min-height: 0; }
+
+.messages {
+  max-width: var(--column);
+  margin: 0 auto;
+  padding: 26px 22px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+/* ---------- empty state ---------- */
+
+.empty-state { padding: 46px 0 20px; }
+
+.empty-title {
+  margin: 0 0 10px;
+  font-family: var(--font-display);
+  font-size: 38px;
+  font-weight: 500;
+  line-height: 1.12;
+  letter-spacing: -0.02em;
+}
+
+.empty-subtitle {
+  margin: 0 0 26px;
+  max-width: 46ch;
+  color: var(--muted);
+  font-size: 15.5px;
+}
+
+.suggestions { display: flex; flex-wrap: wrap; gap: 8px; }
+
+.chip {
+  padding: 8px 14px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--crimson-deep);
+  font-family: inherit;
+  font-size: 13.5px;
+  cursor: pointer;
+  transition: border-color 120ms ease, background 120ms ease, transform 120ms ease;
+}
+
+.chip:hover { border-color: var(--crimson); background: var(--crimson-wash); }
+.chip:active { transform: scale(0.98); }
+
+/* ---------- messages ---------- */
+
+.message { display: flex; gap: 11px; }
+
+.message-user { justify-content: flex-end; }
+
+.user-stack {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+  max-width: 78%;
+  min-width: 0;
+}
+
+.bubble-user {
+  background: var(--crimson);
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 14px 14px 4px 14px;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.bubble-user::selection { background: #fff; color: var(--crimson-deep); }
+
+/* Quiet until the question is hovered or focused, so the transcript stays
+   calm; always present on touch screens, where there is no hover. */
+.user-actions {
+  display: flex;
+  gap: 2px;
+  opacity: 0;
+  transition: opacity 140ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.message-user:hover .user-actions,
+.user-actions:focus-within { opacity: 1; }
+
+@media (hover: none) {
+  .user-actions { opacity: 0.75; }
+}
+
+.user-editor {
+  width: min(560px, 86%);
+  background: var(--surface);
+  border: 1px solid var(--crimson);
+  border-radius: 14px;
+  padding: 10px 12px;
+  box-shadow: 0 6px 20px -8px rgba(122, 21, 39, 0.28);
+}
+
+.edit-input {
+  display: block;
+  width: 100%;
+  border: 0;
+  background: transparent;
+  color: var(--ink);
+  font-family: inherit;
+  font-size: 15px;
+  line-height: 1.55;
+  resize: none;
+  padding: 2px 0;
+  overflow-y: auto;
+}
+
+.edit-input:focus { outline: none; }
+
+.edit-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.edit-cancel,
+.edit-send {
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 6px 14px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background 120ms ease, border-color 120ms ease, opacity 120ms ease;
+}
+
+.edit-cancel {
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--muted);
+}
+
+.edit-cancel:hover { border-color: var(--crimson); color: var(--crimson-deep); }
+
+.edit-send {
+  border: 1px solid var(--crimson);
+  background: var(--crimson);
+  color: #fff;
+}
+
+.edit-send:hover:not(:disabled) { background: var(--crimson-deep); border-color: var(--crimson-deep); }
+.edit-send:disabled { opacity: 0.35; cursor: default; }
+
+/* The institute crest, cropped from the official mark. It carries its own white
+   ground, so it sits on a light plate exactly like the sidebar logo rather than
+   on the crimson fill the monogram used. */
+.avatar {
+  width: 28px; height: 28px;
+  flex-shrink: 0;
+  border-radius: 7px;
+  background: #fff;
+  border: 1px solid var(--line);
+  object-fit: contain;
+  margin-top: 2px;
+}
+
+.assistant-body { min-width: 0; flex: 1; }
+
+.bubble-assistant {
+  background: var(--surface);
+  border: 1px solid var(--line-soft);
+  border-radius: 14px 14px 14px 4px;
+  padding: 12px 15px;
+  overflow-wrap: anywhere;
+  white-space: pre-wrap;
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 7px;
+  flex-wrap: wrap;
+}
+
+.provenance {
+  font-size: 11.5px;
+  padding: 3px 9px;
+  border-radius: 999px;
+  background: var(--crimson-wash);
+  color: var(--crimson-deep);
+}
+
+.provenance-fallback { background: transparent; border: 1px dashed var(--line); color: var(--muted); }
+
+.icon { display: inline-grid; place-items: center; line-height: 0; }
+
+.icon-button {
+  display: inline-grid;
+  place-items: center;
+  width: 28px; height: 28px;
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  border-radius: 7px;
+  cursor: pointer;
+  transition: background 120ms ease, color 120ms ease;
+}
+
+.icon-button:hover { background: var(--crimson-wash); color: var(--crimson-deep); }
+.icon-button.is-done { color: var(--crimson); }
+
+.followups { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 10px; }
+
+.followups .chip { font-size: 13px; padding: 6px 12px; }
+
+.retry {
+  margin-top: 9px;
+  padding: 6px 13px;
+  border: 1px solid var(--crimson);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--crimson-deep);
+  font-family: inherit;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.retry:hover { background: var(--crimson-wash); }
+
+/* ---------- thinking ---------- */
+
+.thinking { display: flex; gap: 5px; padding: 4px 2px; }
+
+.thinking span {
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: var(--muted);
+  animation: pulse 1.3s ease-in-out infinite;
+}
+
+.thinking span:nth-child(2) { animation-delay: 0.18s; }
+.thinking span:nth-child(3) { animation-delay: 0.36s; }
+
+@keyframes pulse {
+  0%, 60%, 100% { opacity: 0.3; transform: translateY(0); }
+  30% { opacity: 1; transform: translateY(-3px); }
+}
+
+/* ---------- composer ---------- */
+
+.composer { border-top: 1px solid var(--line); background: var(--paper); padding: 14px 22px 18px; }
+
+.composer-inner { max-width: var(--column); margin: 0 auto; }
+
+.composer-box {
+  display: flex;
+  align-items: flex-end;
+  gap: 9px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 8px 9px 8px 14px;
+  transition: border-color 140ms ease;
+}
+
+.composer-box:focus-within { border-color: var(--crimson); }
+
+.input {
+  flex: 1;
+  border: 0;
+  background: transparent;
+  color: var(--ink);
+  font-family: inherit;
+  font-size: 15px;
+  line-height: 1.55;
+  resize: none;
+  padding: 5px 0;
+  max-height: 132px;
+  overflow-y: hidden;
+}
+
+.input:focus { outline: none; }
+.input::placeholder { color: var(--muted); }
+
+.send {
+  width: 34px; height: 34px;
+  flex-shrink: 0;
+  border: 0;
+  border-radius: 8px;
+  background: var(--crimson);
+  color: #fff;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  transition: background 120ms ease, opacity 120ms ease;
+}
+
+.send:hover:not(:disabled) { background: var(--crimson-deep); }
+.send:disabled { opacity: 0.32; cursor: default; }
+
+.composer-foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-top: 7px;
+  min-height: 16px;
+}
+
+.composer-hint, .char-counter { font-size: 11.5px; color: var(--muted); }
+.char-counter-warn { color: var(--crimson); }
+
+/* ---------- banner ---------- */
+
+.banner {
+  padding: 9px 22px;
+  background: var(--crimson);
+  color: #fff;
+  font-size: 13.5px;
+  text-align: center;
+}
+
+/* ---------- responsive ---------- */
+
+@media (max-width: 768px) {
+  .shell { grid-template-columns: minmax(0, 1fr); }
+
+  .sidebar {
+    position: fixed;
+    top: 0; bottom: 0; left: 0;
+    width: var(--sidebar-width);
+    transform: translateX(-100%);
+    transition: transform 200ms ease;
+  }
+
+  .sidebar.is-open { transform: translateX(0); }
+
+  .menu-toggle { display: flex; }
+
+  .topbar { padding: 11px 16px; }
+  .topbar-title { font-size: 14.5px; }
+    .messages { padding: 20px 16px 10px; }
+  .composer { padding: 12px 16px 16px; }
+    .empty-state { padding: 26px 0 16px; }
+  .empty-title { font-size: 29px; }
+  .empty-subtitle { font-size: 14.5px; }
+
+  .user-stack { max-width: 86%; }
+  .user-editor { width: 92%; }
+  .composer-hint { display: none; }
+}
+
+@media (min-width: 769px) {
+  .scrim { display: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

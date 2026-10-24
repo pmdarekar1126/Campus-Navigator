@@ -1,0 +1,353 @@
+/* Type-ahead, room tags, floor map, voice, stop, undo toast, grouped history.
+   Everything draws from the tokens in styles.css, so both themes follow. */
+
+/* Any component rule that sets `display` would otherwise beat the browser's
+   default for the hidden attribute, leaving "hidden" things on screen and in
+   the tab order: the closed map panel, an unsupported mic button. */
+[hidden] { display: none !important; }
+
+/* ---------- grouped history ---------- */
+
+.history-section { list-style: none; }
+.history-section + .history-section { margin-top: 14px; }
+.history-section .sidebar-heading { margin: 0 4px 4px; }
+
+.history-group {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.history-delete .icon { pointer-events: none; }
+
+/* ---------- composer: voice, stop, shortcuts ---------- */
+
+.composer-inner { position: relative; }
+
+.mic {
+  width: 34px; height: 34px;
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  transition: background 120ms ease, color 120ms ease;
+}
+
+.mic:hover { background: var(--crimson-wash); color: var(--crimson-deep); }
+
+/* The ring only moves while the microphone is genuinely live. */
+.mic.is-listening {
+  background: var(--crimson);
+  color: #fff;
+  animation: listening 1.4s cubic-bezier(0.16, 1, 0.3, 1) infinite;
+}
+
+@keyframes listening {
+  0% { box-shadow: 0 0 0 0 rgba(159, 28, 51, 0.4); }
+  100% { box-shadow: 0 0 0 10px rgba(159, 28, 51, 0); }
+}
+
+.send.is-stop { background: var(--ink); color: var(--paper); }
+.send.is-stop:hover:not(:disabled) { background: var(--crimson-deep); color: #fff; }
+
+.composer-hint kbd {
+  display: inline-block;
+  min-width: 18px;
+  margin: 0 1px;
+  padding: 0 5px;
+  border: 1px solid var(--line);
+  border-bottom-width: 2px;
+  border-radius: 4px;
+  background: var(--surface);
+  color: var(--ink);
+  font: 500 10.5px/16px var(--font-ui);
+  text-align: center;
+}
+
+/* ---------- type-ahead ---------- */
+
+.suggest-list {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: calc(100% + 8px);
+  z-index: 30;
+  max-height: 290px;
+  overflow-y: auto;
+  margin: 0;
+  padding: 6px;
+  list-style: none;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: 0 14px 34px -16px rgba(42, 30, 33, 0.42);
+}
+
+.suggestion {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 14px;
+  padding: 9px 11px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.suggestion[aria-selected='true'] { background: var(--crimson-wash); }
+
+.suggestion-name {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--ink);
+}
+
+.suggestion-name mark {
+  background: transparent;
+  color: var(--crimson-deep);
+  font-weight: 600;
+}
+
+.suggestion-meta {
+  flex-shrink: 0;
+  color: var(--muted);
+  font-size: 12.5px;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---------- room tags inside answers ---------- */
+
+.room-tag {
+  display: inline;
+  margin: 0;
+  padding: 0 5px;
+  border: 0;
+  border-radius: 5px;
+  background: var(--crimson-wash);
+  color: var(--crimson-deep);
+  font: inherit;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+  line-height: inherit;
+  cursor: pointer;
+  transition: background 120ms ease, color 120ms ease;
+}
+
+.room-tag:hover { background: var(--crimson); color: #fff; }
+
+.map-button {
+  display: inline-flex;
+  flex-shrink: 0;
+  white-space: nowrap;
+  align-items: center;
+  gap: 6px;
+  height: 28px;
+  padding: 0 11px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--crimson-deep);
+  font: 500 12.5px var(--font-ui);
+  cursor: pointer;
+  transition: border-color 120ms ease, background 120ms ease;
+}
+
+.map-button:hover { border-color: var(--crimson); background: var(--crimson-wash); }
+
+/* ---------- floor map panel ---------- */
+
+.map-panel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 60;
+  width: min(400px, 100vw);
+  display: flex;
+  flex-direction: column;
+  padding: 18px 20px 20px;
+  overflow-y: auto;
+  background: var(--paper);
+  border-left: 1px solid var(--line);
+  box-shadow: -14px 0 36px -20px rgba(42, 30, 33, 0.45);
+  transform: translateX(100%);
+  transition: transform 280ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.map-panel.is-open { transform: translateX(0); }
+
+.map-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.map-title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+.map-levels {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 14px 0 10px;
+}
+
+.map-level {
+  position: relative;
+  width: 36px; height: 34px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: transparent;
+  color: var(--ink);
+  font: 600 13px var(--font-ui);
+  cursor: pointer;
+  transition: background 120ms ease, border-color 120ms ease;
+}
+
+.map-level:hover { border-color: var(--crimson); }
+
+.map-level[aria-pressed='true'] {
+  background: var(--crimson);
+  border-color: var(--crimson);
+  color: #fff;
+}
+
+/* A dot marks every level that holds a highlighted room. */
+.map-level.has-target::after {
+  content: '';
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: var(--crimson);
+}
+
+.map-level[aria-pressed='true'].has-target::after { background: #fff; }
+
+.map-legend {
+  display: flex;
+  gap: 16px;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.map-legend span { display: inline-flex; align-items: center; gap: 6px; }
+
+.swatch {
+  display: inline-block;
+  width: 12px; height: 12px;
+  border-radius: 3px;
+}
+
+.swatch-target { background: var(--crimson); }
+.swatch-near { background: var(--crimson-wash); box-shadow: inset 0 0 0 1px var(--crimson); }
+
+.map-canvas { margin-top: 12px; }
+.map-svg { display: block; width: 100%; height: auto; overflow: visible; }
+
+.map-lobby { fill: var(--blush); stroke: var(--line); }
+.map-lobby-title { fill: var(--ink); font: 600 12px var(--font-ui); }
+.map-lobby-sub { fill: var(--muted); font: 400 11px var(--font-ui); }
+.map-corridor { fill: var(--blush); }
+
+.map-room { cursor: pointer; outline: none; }
+.map-room rect { fill: var(--surface); stroke: var(--line); stroke-width: 1; transition: fill 120ms ease, stroke 120ms ease; }
+.map-room:hover rect { stroke: var(--crimson); }
+.map-room:focus-visible rect { stroke: var(--crimson); stroke-width: 2; }
+
+.map-code { fill: var(--ink); font: 600 12px var(--font-ui); font-variant-numeric: tabular-nums; }
+.map-name { fill: var(--muted); font: 400 10.5px var(--font-ui); }
+
+.map-room.is-target rect { fill: var(--crimson); stroke: var(--crimson); }
+.map-room.is-target text { fill: #fff; }
+.map-room.is-near rect { fill: var(--crimson-wash); stroke: var(--crimson); }
+.map-room.is-near .map-code { fill: var(--crimson-deep); }
+
+.map-room-static { fill: var(--surface); stroke: var(--line); }
+
+.map-note {
+  margin: 14px 0 0;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--muted);
+}
+
+/* ---------- undo toast ---------- */
+
+.toast-region {
+  position: fixed;
+  left: 50%;
+  bottom: 104px;
+  z-index: 80;
+  transform: translate(-50%, 12px);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 180ms ease, transform 260ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.toast-region.is-visible {
+  transform: translate(-50%, 0);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.toast {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 9px 9px 9px 16px;
+  border-radius: 12px;
+  background: var(--ink);
+  color: var(--paper);
+  font-size: 14px;
+  white-space: nowrap;
+  box-shadow: 0 14px 30px -14px rgba(0, 0, 0, 0.5);
+}
+
+.toast-action {
+  padding: 5px 13px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--paper);
+  color: var(--ink);
+  font: 600 13px var(--font-ui);
+  cursor: pointer;
+}
+
+.toast-action:hover { background: var(--crimson-wash); color: var(--crimson-deep); }
+
+/* ---------- small screens ---------- */
+
+@media (max-width: 768px) {
+  .map-panel {
+    top: auto;
+    left: 0;
+    width: auto;
+    height: 84dvh;
+    border-left: 0;
+    border-top: 1px solid var(--line);
+    border-radius: 18px 18px 0 0;
+    box-shadow: 0 -14px 36px -20px rgba(42, 30, 33, 0.45);
+    transform: translateY(100%);
+  }
+
+  .map-panel.is-open { transform: translateY(0); }
+  .toast-region { bottom: 92px; }
+  .suggestion-meta { font-size: 12px; }
+}
